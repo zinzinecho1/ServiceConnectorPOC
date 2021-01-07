@@ -36,9 +36,9 @@
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
-    <sys_translated_text action="delete_multiple" query="documentkey=c24670f4db844810bb528f423a96197e"/>
-    <sys_variable_value action="delete_multiple" query="document_key=c24670f4db844810bb528f423a96197e"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_translated_text action="DELETE" query="documentkey=c24670f4db844810bb528f423a96197e"/>
+    <sys_variable_value action="DELETE" query="document_key=c24670f4db844810bb528f423a96197e"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_action_type_definition</document>
         <document_key>c24670f4db844810bb528f423a96197e</document_key>
         <order>1</order>
@@ -52,8 +52,8 @@
         <value>{"version":{"majorVersion":1,"minorVersion":0,"artifactId":"","groupId":"","uknownVersion":false,"snapshot":false,"patchLevel":0,"unknownVersion":false},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FD6dd599303c08481084ef5508be8b5889":{},"FlowDesigner:FD6dd599303c08481084ef5508be8b5889.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD6dd599303c08481084ef5508be8b5889\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Payload\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{}}</value>
         <variable display_value="">21d59930db084810bb528f423a96198c</variable>
     </sys_variable_value>
-    <sys_hub_step_instance action="delete_multiple" query="action=c24670f4db844810bb528f423a96197e^sys_idNOT IN11d59930db084810bb528f423a96195d"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE" query="action=c24670f4db844810bb528f423a96197e^sys_idNOT IN11d59930db084810bb528f423a96195d"/>
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Payload Parser">c24670f4db844810bb528f423a96197e</action>
         <cid>d36b257c-deb8-4d70-9391-35b01dd1c0f2</cid>
         <extended_inputs/>
@@ -74,8 +74,8 @@
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-20 01:11:51</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=11d59930db084810bb528f423a96195d"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=11d59930db084810bb528f423a96195d"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>11d59930db084810bb528f423a96195d</document_key>
         <order>100</order>
@@ -89,7 +89,7 @@
         <value>{"name":"root","children":[{"name":"u_api_key","children":[],"type":"string","xpath":"/root/u_api_key","previewValue":""},{"name":"u_assigned_to","children":[],"type":"string","xpath":"/root/u_assigned_to","previewValue":"Fred Luddy"},{"name":"u_assignment_group","children":[],"type":"string","xpath":"/root/u_assignment_group","previewValue":"MSP Support"},{"name":"u_business_service","children":[],"type":"string","xpath":"/root/u_business_service","previewValue":""},{"name":"u_caller_id","children":[],"type":"string","xpath":"/root/u_caller_id","previewValue":"Initech Employee"},{"name":"u_category","children":[],"type":"string","xpath":"/root/u_category","previewValue":"Inquiry / Help"},{"name":"u_cmdb_ci","children":[],"type":"string","xpath":"/root/u_cmdb_ci","previewValue":""},{"name":"u_contact_type","children":[],"type":"string","xpath":"/root/u_contact_type","previewValue":"Phone"},{"name":"u_correlation_display","children":[],"type":"string","xpath":"/root/u_correlation_display","previewValue":"INC0011463"},{"name":"u_correlation_id","children":[],"type":"string","xpath":"/root/u_correlation_id","previewValue":"e19dead81b8448106b06a7d76e4bcb16"},{"name":"u_description","children":[],"type":"string","xpath":"/root/u_description","previewValue":""},{"name":"u_impact","children":[],"type":"string","xpath":"/root/u_impact","previewValue":"3 - Low"},{"name":"u_number","children":[],"type":"string","xpath":"/root/u_number","previewValue":"INC0010187"},{"name":"u_priority","children":[],"type":"string","xpath":"/root/u_priority","previewValue":"5"},{"name":"u_short_description","children":[],"type":"string","xpath":"/root/u_short_description","previewValue":"DEMO - 10"},{"name":"u_state","children":[],"type":"string","xpath":"/root/u_state","previewValue":"2"},{"name":"u_subcategory","children":[],"type":"string","xpath":"/root/u_subcategory","previewValue":"Email"},{"name":"u_sys_id","children":[],"type":"string","xpath":"/root/u_sys_id","previewValue":"500ee29cdb800810bb528f423a9619b4"},{"name":"u_system_id","children":[],"type":"string","xpath":"/root/u_system_id","previewValue":"500ee29cdb800810bb528f423a9619b4"},{"name":"u_urgency","children":[],"type":"string","xpath":"/root/u_urgency","previewValue":"3 - Low"}],"type":"object","xpath":"/root","previewValue":""}</value>
         <variable display_value="">13e1f5fd735b2300ab7931d7caf6a76b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>11d59930db084810bb528f423a96195d</document_key>
         <order>300</order>
@@ -103,8 +103,8 @@
         <value/>
         <variable display_value="">48ff5bb7773223007b2380733b10612c</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=11d59930db084810bb528f423a96195d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=11d59930db084810bb528f423a96195d"/>
+    <sys_element_mapping action="DELETE">
         <field>sample_payload</field>
         <id>11d59930db084810bb528f423a96195d</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -116,7 +116,7 @@
         <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>source_data</field>
         <id>11d59930db084810bb528f423a96195d</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -128,7 +128,7 @@
         <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
         <value>{{action.payload.payload}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>target_schema</field>
         <id>11d59930db084810bb528f423a96195d</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -140,8 +140,8 @@
         <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_action_input action="delete_multiple" query="model=c24670f4db844810bb528f423a96197e^sys_idNOT IN55d55130db084810bb528f423a96193c"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
+    <sys_hub_action_input action="DELETE" query="model=c24670f4db844810bb528f423a96197e^sys_idNOT IN55d55130db084810bb528f423a96193c"/>
+    <sys_hub_action_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -222,8 +222,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_output action="delete_multiple" query="model=c24670f4db844810bb528f423a96197e^sys_idNOT IN21d59930db084810bb528f423a96198c"/>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE" query="model=c24670f4db844810bb528f423a96197e^sys_idNOT IN21d59930db084810bb528f423a96198c"/>
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -306,8 +306,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_step_instance action="delete_multiple" query="action=c24670f4db844810bb528f423a96197e^sys_idNOT IN11d59930db084810bb528f423a96195d"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE" query="action=c24670f4db844810bb528f423a96197e^sys_idNOT IN11d59930db084810bb528f423a96195d"/>
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Payload Parser">c24670f4db844810bb528f423a96197e</action>
         <cid>d36b257c-deb8-4d70-9391-35b01dd1c0f2</cid>
         <extended_inputs/>
@@ -328,8 +328,8 @@
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-20 01:11:51</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=11d59930db084810bb528f423a96195d"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=11d59930db084810bb528f423a96195d"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>11d59930db084810bb528f423a96195d</document_key>
         <order>100</order>
@@ -343,7 +343,7 @@
         <value>{"name":"root","children":[{"name":"u_api_key","children":[],"type":"string","xpath":"/root/u_api_key","previewValue":""},{"name":"u_assigned_to","children":[],"type":"string","xpath":"/root/u_assigned_to","previewValue":"Fred Luddy"},{"name":"u_assignment_group","children":[],"type":"string","xpath":"/root/u_assignment_group","previewValue":"MSP Support"},{"name":"u_business_service","children":[],"type":"string","xpath":"/root/u_business_service","previewValue":""},{"name":"u_caller_id","children":[],"type":"string","xpath":"/root/u_caller_id","previewValue":"Initech Employee"},{"name":"u_category","children":[],"type":"string","xpath":"/root/u_category","previewValue":"Inquiry / Help"},{"name":"u_cmdb_ci","children":[],"type":"string","xpath":"/root/u_cmdb_ci","previewValue":""},{"name":"u_contact_type","children":[],"type":"string","xpath":"/root/u_contact_type","previewValue":"Phone"},{"name":"u_correlation_display","children":[],"type":"string","xpath":"/root/u_correlation_display","previewValue":"INC0011463"},{"name":"u_correlation_id","children":[],"type":"string","xpath":"/root/u_correlation_id","previewValue":"e19dead81b8448106b06a7d76e4bcb16"},{"name":"u_description","children":[],"type":"string","xpath":"/root/u_description","previewValue":""},{"name":"u_impact","children":[],"type":"string","xpath":"/root/u_impact","previewValue":"3 - Low"},{"name":"u_number","children":[],"type":"string","xpath":"/root/u_number","previewValue":"INC0010187"},{"name":"u_priority","children":[],"type":"string","xpath":"/root/u_priority","previewValue":"5"},{"name":"u_short_description","children":[],"type":"string","xpath":"/root/u_short_description","previewValue":"DEMO - 10"},{"name":"u_state","children":[],"type":"string","xpath":"/root/u_state","previewValue":"2"},{"name":"u_subcategory","children":[],"type":"string","xpath":"/root/u_subcategory","previewValue":"Email"},{"name":"u_sys_id","children":[],"type":"string","xpath":"/root/u_sys_id","previewValue":"500ee29cdb800810bb528f423a9619b4"},{"name":"u_system_id","children":[],"type":"string","xpath":"/root/u_system_id","previewValue":"500ee29cdb800810bb528f423a9619b4"},{"name":"u_urgency","children":[],"type":"string","xpath":"/root/u_urgency","previewValue":"3 - Low"}],"type":"object","xpath":"/root","previewValue":""}</value>
         <variable display_value="">13e1f5fd735b2300ab7931d7caf6a76b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>11d59930db084810bb528f423a96195d</document_key>
         <order>300</order>
@@ -357,8 +357,8 @@
         <value/>
         <variable display_value="">48ff5bb7773223007b2380733b10612c</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=11d59930db084810bb528f423a96195d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=11d59930db084810bb528f423a96195d"/>
+    <sys_element_mapping action="DELETE">
         <field>sample_payload</field>
         <id>11d59930db084810bb528f423a96195d</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -370,7 +370,7 @@
         <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>source_data</field>
         <id>11d59930db084810bb528f423a96195d</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -382,7 +382,7 @@
         <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
         <value>{{action.payload.payload}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>target_schema</field>
         <id>11d59930db084810bb528f423a96195d</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -394,8 +394,8 @@
         <table>var__m_sys_flow_step_definition_input_34371337773223007b2380733b106170</table>
         <value/>
     </sys_element_mapping>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c24670f4db844810bb528f423a96197e^sys_idNOT IN59d59930db084810bb528f423a96195a"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_c24670f4db844810bb528f423a96197e^sys_idNOT IN59d59930db084810bb528f423a96195a"/>
+    <sys_documentation action="DELETE">
         <element>payload</element>
         <help/>
         <hint/>
@@ -418,8 +418,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_c24670f4db844810bb528f423a96197e^sys_idNOT INe5d59930db084810bb528f423a961991"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_c24670f4db844810bb528f423a96197e^sys_idNOT INe5d59930db084810bb528f423a961991"/>
+    <sys_documentation action="DELETE">
         <element>payload</element>
         <help/>
         <hint/>

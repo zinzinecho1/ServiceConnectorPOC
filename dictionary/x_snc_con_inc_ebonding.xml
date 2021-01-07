@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Connector eBonding" max_length="40" name="x_snc_con_inc_ebonding" type="collection">
+    <element extends="sys_import_set_row" label="Connector eBonding" max_length="40" name="x_snc_con_inc_ebonding" sizeclass="0" type="collection">
         <element label="Api key" max_length="32" name="u_api_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Assigned to" label="Assigned to" max_length="40" name="u_assigned_to" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Assignment group" label="Assignment group" max_length="40" name="u_assignment_group" type="string"/>

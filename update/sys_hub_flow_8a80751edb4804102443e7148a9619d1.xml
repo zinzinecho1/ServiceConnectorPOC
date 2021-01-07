@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -14,9 +15,11 @@
         <latest_snapshot>f18e3c90db544c101bdb5a75dc961910</latest_snapshot>
         <master_snapshot>6bc2b99edb4804102443e7148a961939</master_snapshot>
         <name>Connector - Stage Incident</name>
+        <natlang/>
         <outputs/>
         <remote_trigger_id>b3c2b99edb4804102443e7148a961981</remote_trigger_id>
         <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -49,6 +52,7 @@
         <on_insert>true</on_insert>
         <on_update>true</on_update>
         <run_flow_in>background</run_flow_in>
+        <run_on_extended/>
         <run_when_setting>interactive</run_when_setting>
         <run_when_user_list/>
         <run_when_user_setting>any</run_when_user_setting>
@@ -678,10 +682,12 @@
         <label_cache>[{"name":"032111ff-ab66-4bd7-91d5-b5322403a669.stage","label":"1➛Stage","reference":"x_snc_con_stage","reference_display":"Stage","type":"reference","base_type":"reference"}]</label_cache>
         <master>true</master>
         <name>Connector - Stage Incident</name>
+        <natlang/>
         <outputs/>
         <parent_flow display_value="Connector - Stage Incident">8a80751edb4804102443e7148a9619d1</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>

@@ -16,6 +16,7 @@
         <latest_snapshot>ab5b3be2db73f300bb528f423a9619ef</latest_snapshot>
         <master_snapshot>48dc086edb77b300bb528f423a961961</master_snapshot>
         <name>Make a Decision</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <state>published</state>
@@ -1726,6 +1727,7 @@
         <label_cache>[{"name":"{{action.inputs}}","label":"action➛Inputs","type":"action","ref":""},{"name":"{{action.answer_field}}","label":"action➛Answer field","type":"action","ref":""},{"name":"{{action.decision_table.sys_id}}","label":"action➛Decision table➛Sys ID","type":"action","ref":""},{"name":"{{step[3ad2bc96-5f5d-4b3e-a17d-4fdb7b9c04b5].answer}}","label":"step➛Script step➛Answer Value","type":"step","ref":""},{"name":"{{step[3ad2bc96-5f5d-4b3e-a17d-4fdb7b9c04b5].answer_display}}","label":"step➛Script step➛Answer Display","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>Make a Decision</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <parent_action display_value="Make a Decision">0058b31edb37b300bb528f423a961978</parent_action>

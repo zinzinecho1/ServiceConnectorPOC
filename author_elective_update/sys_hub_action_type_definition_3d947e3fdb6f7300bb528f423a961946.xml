@@ -55,9 +55,9 @@ This action identifies remote instance incident using correlation id of the inci
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
-    <sys_translated_text action="delete_multiple" query="documentkey=3d947e3fdb6f7300bb528f423a961946"/>
-    <sys_variable_value action="delete_multiple" query="document_key=3d947e3fdb6f7300bb528f423a961946"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_translated_text action="DELETE" query="documentkey=3d947e3fdb6f7300bb528f423a961946"/>
+    <sys_variable_value action="DELETE" query="document_key=3d947e3fdb6f7300bb528f423a961946"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_action_type_definition</document>
         <document_key>3d947e3fdb6f7300bb528f423a961946</document_key>
         <order>0</order>
@@ -71,8 +71,8 @@ This action identifies remote instance incident using correlation id of the inci
         <value>0</value>
         <variable display_value="">4e947e3fdb6f7300bb528f423a9619e3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=3d947e3fdb6f7300bb528f423a961946"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=3d947e3fdb6f7300bb528f423a961946"/>
+    <sys_element_mapping action="DELETE">
         <field>Status</field>
         <id>3d947e3fdb6f7300bb528f423a961946</id>
         <sys_created_by>admin</sys_created_by>
@@ -84,8 +84,8 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_hub_action_output_3d947e3fdb6f7300bb528f423a961946</table>
         <value>{{step[76373ecf-2133-4801-8215-d08bea84316c].status}}</value>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=3d947e3fdb6f7300bb528f423a961946^sys_idNOT IN02947e3fdb6f7300bb528f423a9619cc,06947e3fdb6f7300bb528f423a9619a9,39947e3fdb6f7300bb528f423a96195c,bd947e3fdb6f7300bb528f423a961978,ce947e3fdb6f7300bb528f423a9619bb"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE" query="action=3d947e3fdb6f7300bb528f423a961946^sys_idNOT IN02947e3fdb6f7300bb528f423a9619cc,06947e3fdb6f7300bb528f423a9619a9,39947e3fdb6f7300bb528f423a96195c,bd947e3fdb6f7300bb528f423a961978,ce947e3fdb6f7300bb528f423a9619bb"/>
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Update Remote Incident">3d947e3fdb6f7300bb528f423a961946</action>
         <cid>76373ecf-2133-4801-8215-d08bea84316c</cid>
         <extended_inputs/>
@@ -106,8 +106,8 @@ This action identifies remote instance incident using correlation id of the inci
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-04 19:13:18</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=02947e3fdb6f7300bb528f423a9619cc"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=02947e3fdb6f7300bb528f423a9619cc"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>02947e3fdb6f7300bb528f423a9619cc</document_key>
         <order>600</order>
@@ -131,7 +131,7 @@ This action identifies remote instance incident using correlation id of the inci
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>02947e3fdb6f7300bb528f423a9619cc</document_key>
         <order>400</order>
@@ -145,8 +145,8 @@ This action identifies remote instance incident using correlation id of the inci
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=02947e3fdb6f7300bb528f423a9619cc"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=02947e3fdb6f7300bb528f423a9619cc"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>02947e3fdb6f7300bb528f423a9619cc</id>
         <sys_created_by>admin</sys_created_by>
@@ -158,7 +158,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>response</field>
         <id>02947e3fdb6f7300bb528f423a9619cc</id>
         <sys_created_by>admin</sys_created_by>
@@ -170,7 +170,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_hub_step_ext_input_02947e3fdb6f7300bb528f423a9619cc</table>
         <value>{{step[cc08bc34-e78f-4865-ad6f-5ef3e21c11a6].response_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>02947e3fdb6f7300bb528f423a9619cc</id>
         <sys_created_by>admin</sys_created_by>
@@ -182,7 +182,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>status</field>
         <id>02947e3fdb6f7300bb528f423a9619cc</id>
         <sys_created_by>admin</sys_created_by>
@@ -194,8 +194,8 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_hub_step_ext_input_02947e3fdb6f7300bb528f423a9619cc</table>
         <value>{{step[cc08bc34-e78f-4865-ad6f-5ef3e21c11a6].status_code}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=02947e3fdb6f7300bb528f423a9619cc^sys_idNOT IN0e947e3fdb6f7300bb528f423a9619ce,ca947e3fdb6f7300bb528f423a9619d3"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=02947e3fdb6f7300bb528f423a9619cc^sys_idNOT IN0e947e3fdb6f7300bb528f423a9619ce,ca947e3fdb6f7300bb528f423a9619d3"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -276,7 +276,7 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -357,8 +357,8 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=02947e3fdb6f7300bb528f423a9619cc^sys_idNOT IN0e947e3fdb6f7300bb528f423a9619d8"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=02947e3fdb6f7300bb528f423a9619cc^sys_idNOT IN0e947e3fdb6f7300bb528f423a9619d8"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -439,7 +439,7 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Update Remote Incident">3d947e3fdb6f7300bb528f423a961946</action>
         <cid>6f89b700-9726-46c2-b6cc-a3c95ab0ae92</cid>
         <extended_inputs/>
@@ -460,8 +460,8 @@ This action identifies remote instance incident using correlation id of the inci
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-04 19:13:18</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=06947e3fdb6f7300bb528f423a9619a9"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=06947e3fdb6f7300bb528f423a9619a9"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>06947e3fdb6f7300bb528f423a9619a9</document_key>
         <order>600</order>
@@ -479,7 +479,7 @@ This action identifies remote instance incident using correlation id of the inci
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>06947e3fdb6f7300bb528f423a9619a9</document_key>
         <order>400</order>
@@ -493,8 +493,8 @@ This action identifies remote instance incident using correlation id of the inci
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=06947e3fdb6f7300bb528f423a9619a9"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=06947e3fdb6f7300bb528f423a9619a9"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>06947e3fdb6f7300bb528f423a9619a9</id>
         <sys_created_by>admin</sys_created_by>
@@ -506,7 +506,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>incident_sys_id</field>
         <id>06947e3fdb6f7300bb528f423a9619a9</id>
         <sys_created_by>admin</sys_created_by>
@@ -518,7 +518,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_hub_step_ext_input_06947e3fdb6f7300bb528f423a9619a9</table>
         <value>{{action.ah_incident.sys_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>06947e3fdb6f7300bb528f423a9619a9</id>
         <sys_created_by>admin</sys_created_by>
@@ -530,8 +530,8 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=06947e3fdb6f7300bb528f423a9619a9^sys_idNOT IN82947e3fdb6f7300bb528f423a9619ac"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=06947e3fdb6f7300bb528f423a9619a9^sys_idNOT IN82947e3fdb6f7300bb528f423a9619ac"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -612,8 +612,8 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=06947e3fdb6f7300bb528f423a9619a9^sys_idNOT IN4a947e3fdb6f7300bb528f423a9619b1"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=06947e3fdb6f7300bb528f423a9619a9^sys_idNOT IN4a947e3fdb6f7300bb528f423a9619b1"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -694,7 +694,7 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Update Remote Incident">3d947e3fdb6f7300bb528f423a961946</action>
         <cid>65edef27-f9b6-4c83-8bcb-af1f31271c24</cid>
         <extended_inputs/>
@@ -715,8 +715,8 @@ This action identifies remote instance incident using correlation id of the inci
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-04 19:13:17</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=39947e3fdb6f7300bb528f423a96195c"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=39947e3fdb6f7300bb528f423a96195c"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>39947e3fdb6f7300bb528f423a96195c</document_key>
         <order>25</order>
@@ -730,7 +730,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>{}</value>
         <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>39947e3fdb6f7300bb528f423a96195c</document_key>
         <order>30</order>
@@ -744,7 +744,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Accept","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>39947e3fdb6f7300bb528f423a96195c</document_key>
         <order>20</order>
@@ -758,7 +758,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>/api/now/table/incident</value>
         <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>39947e3fdb6f7300bb528f423a96195c</document_key>
         <order>12</order>
@@ -772,7 +772,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>39947e3fdb6f7300bb528f423a96195c</document_key>
         <order>15</order>
@@ -786,7 +786,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>https://demonightlyus.service-now.com</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>39947e3fdb6f7300bb528f423a96195c</document_key>
         <order>10</order>
@@ -800,7 +800,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>328da1c1b320030024a3051a16a8dc86</value>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>39947e3fdb6f7300bb528f423a96195c</document_key>
         <order>13</order>
@@ -814,8 +814,8 @@ This action identifies remote instance incident using correlation id of the inci
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=39947e3fdb6f7300bb528f423a96195c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=39947e3fdb6f7300bb528f423a96195c"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>39947e3fdb6f7300bb528f423a96195c</id>
         <sys_created_by>admin</sys_created_by>
@@ -827,7 +827,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>base_url</field>
         <id>39947e3fdb6f7300bb528f423a96195c</id>
         <sys_created_by>admin</sys_created_by>
@@ -839,7 +839,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>capabilities</field>
         <id>39947e3fdb6f7300bb528f423a96195c</id>
         <sys_created_by>admin</sys_created_by>
@@ -851,7 +851,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>connection_alias</field>
         <id>39947e3fdb6f7300bb528f423a96195c</id>
         <sys_created_by>admin</sys_created_by>
@@ -863,7 +863,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>headers</field>
         <id>39947e3fdb6f7300bb528f423a96195c</id>
         <sys_created_by>admin</sys_created_by>
@@ -875,7 +875,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>query_params</field>
         <id>39947e3fdb6f7300bb528f423a96195c</id>
         <sys_created_by>admin</sys_created_by>
@@ -887,7 +887,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{"type":"ADV_NV","value":[{"name":"sysparm_fields","value":"sys_id","attributes":{}},{"name":"correlation_id","value":"{{action.ah_incident.number}}","attributes":{}}]}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>resource_path</field>
         <id>39947e3fdb6f7300bb528f423a96195c</id>
         <sys_created_by>admin</sys_created_by>
@@ -899,7 +899,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Update Remote Incident">3d947e3fdb6f7300bb528f423a961946</action>
         <cid>dd926b39-414f-48d6-b05d-fb336829c10f</cid>
         <extended_inputs/>
@@ -920,8 +920,8 @@ This action identifies remote instance incident using correlation id of the inci
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-04 19:13:18</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=bd947e3fdb6f7300bb528f423a961978"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=bd947e3fdb6f7300bb528f423a961978"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>bd947e3fdb6f7300bb528f423a961978</document_key>
         <order>600</order>
@@ -946,7 +946,7 @@ This action identifies remote instance incident using correlation id of the inci
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>bd947e3fdb6f7300bb528f423a961978</document_key>
         <order>400</order>
@@ -960,8 +960,8 @@ This action identifies remote instance incident using correlation id of the inci
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=bd947e3fdb6f7300bb528f423a961978"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=bd947e3fdb6f7300bb528f423a961978"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>bd947e3fdb6f7300bb528f423a961978</id>
         <sys_created_by>admin</sys_created_by>
@@ -973,7 +973,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>response</field>
         <id>bd947e3fdb6f7300bb528f423a961978</id>
         <sys_created_by>admin</sys_created_by>
@@ -985,7 +985,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_hub_step_ext_input_bd947e3fdb6f7300bb528f423a961978</table>
         <value>{{step[65edef27-f9b6-4c83-8bcb-af1f31271c24].response_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>bd947e3fdb6f7300bb528f423a961978</id>
         <sys_created_by>admin</sys_created_by>
@@ -997,7 +997,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>status</field>
         <id>bd947e3fdb6f7300bb528f423a961978</id>
         <sys_created_by>admin</sys_created_by>
@@ -1009,8 +1009,8 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_hub_step_ext_input_bd947e3fdb6f7300bb528f423a961978</table>
         <value>{{step[65edef27-f9b6-4c83-8bcb-af1f31271c24].status_code}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=bd947e3fdb6f7300bb528f423a961978^sys_idNOT IN31947e3fdb6f7300bb528f423a96198d,b9947e3fdb6f7300bb528f423a96197b"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=bd947e3fdb6f7300bb528f423a961978^sys_idNOT IN31947e3fdb6f7300bb528f423a96198d,b9947e3fdb6f7300bb528f423a96197b"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1091,7 +1091,7 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1172,8 +1172,8 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=bd947e3fdb6f7300bb528f423a961978^sys_idNOT IN42947e3fdb6f7300bb528f423a961992"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=bd947e3fdb6f7300bb528f423a961978^sys_idNOT IN42947e3fdb6f7300bb528f423a961992"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1254,7 +1254,7 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Update Remote Incident">3d947e3fdb6f7300bb528f423a961946</action>
         <cid>cc08bc34-e78f-4865-ad6f-5ef3e21c11a6</cid>
         <extended_inputs/>
@@ -1275,8 +1275,8 @@ This action identifies remote instance incident using correlation id of the inci
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-04 19:13:18</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=ce947e3fdb6f7300bb528f423a9619bb"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=ce947e3fdb6f7300bb528f423a9619bb"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>ce947e3fdb6f7300bb528f423a9619bb</document_key>
         <order>12</order>
@@ -1290,7 +1290,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>ce947e3fdb6f7300bb528f423a9619bb</document_key>
         <order>10</order>
@@ -1304,7 +1304,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>328da1c1b320030024a3051a16a8dc86</value>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>ce947e3fdb6f7300bb528f423a9619bb</document_key>
         <order>25</order>
@@ -1318,7 +1318,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>put</value>
         <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>ce947e3fdb6f7300bb528f423a9619bb</document_key>
         <order>15</order>
@@ -1332,7 +1332,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>https://demonightlyus.service-now.com</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>ce947e3fdb6f7300bb528f423a9619bb</document_key>
         <order>13</order>
@@ -1346,7 +1346,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>ce947e3fdb6f7300bb528f423a9619bb</document_key>
         <order>30</order>
@@ -1360,8 +1360,8 @@ This action identifies remote instance incident using correlation id of the inci
         <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"content-type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=ce947e3fdb6f7300bb528f423a9619bb"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=ce947e3fdb6f7300bb528f423a9619bb"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -1373,7 +1373,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>base_url</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -1385,7 +1385,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>body</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -1397,7 +1397,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{{step[6f89b700-9726-46c2-b6cc-a3c95ab0ae92].rest_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>capabilities</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -1409,7 +1409,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>connection_alias</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -1421,7 +1421,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>headers</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -1433,7 +1433,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>http_method</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -1445,7 +1445,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>resource_path</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -1457,8 +1457,8 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>/api/now/table/incident/{{step[dd926b39-414f-48d6-b05d-fb336829c10f].incident_sys_id}}</value>
     </sys_element_mapping>
-    <sys_hub_action_input action="delete_multiple" query="model=3d947e3fdb6f7300bb528f423a961946^sys_idNOT INb9947e3fdb6f7300bb528f423a961956"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
+    <sys_hub_action_input action="DELETE" query="model=3d947e3fdb6f7300bb528f423a961946^sys_idNOT INb9947e3fdb6f7300bb528f423a961956"/>
+    <sys_hub_action_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1539,8 +1539,8 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_output action="delete_multiple" query="model=3d947e3fdb6f7300bb528f423a961946^sys_idNOT IN4e947e3fdb6f7300bb528f423a9619e3"/>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE" query="model=3d947e3fdb6f7300bb528f423a961946^sys_idNOT IN4e947e3fdb6f7300bb528f423a9619e3"/>
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1623,8 +1623,8 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_step_instance action="delete_multiple" query="action=3d947e3fdb6f7300bb528f423a961946^sys_idNOT IN02947e3fdb6f7300bb528f423a9619cc,06947e3fdb6f7300bb528f423a9619a9,39947e3fdb6f7300bb528f423a96195c,bd947e3fdb6f7300bb528f423a961978,ce947e3fdb6f7300bb528f423a9619bb"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE" query="action=3d947e3fdb6f7300bb528f423a961946^sys_idNOT IN02947e3fdb6f7300bb528f423a9619cc,06947e3fdb6f7300bb528f423a9619a9,39947e3fdb6f7300bb528f423a96195c,bd947e3fdb6f7300bb528f423a961978,ce947e3fdb6f7300bb528f423a9619bb"/>
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Update Remote Incident">3d947e3fdb6f7300bb528f423a961946</action>
         <cid>76373ecf-2133-4801-8215-d08bea84316c</cid>
         <extended_inputs/>
@@ -1645,8 +1645,8 @@ This action identifies remote instance incident using correlation id of the inci
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-04 19:13:18</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=02947e3fdb6f7300bb528f423a9619cc"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=02947e3fdb6f7300bb528f423a9619cc"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>02947e3fdb6f7300bb528f423a9619cc</document_key>
         <order>600</order>
@@ -1670,7 +1670,7 @@ This action identifies remote instance incident using correlation id of the inci
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>02947e3fdb6f7300bb528f423a9619cc</document_key>
         <order>400</order>
@@ -1684,8 +1684,8 @@ This action identifies remote instance incident using correlation id of the inci
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=02947e3fdb6f7300bb528f423a9619cc"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=02947e3fdb6f7300bb528f423a9619cc"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>02947e3fdb6f7300bb528f423a9619cc</id>
         <sys_created_by>admin</sys_created_by>
@@ -1697,7 +1697,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>response</field>
         <id>02947e3fdb6f7300bb528f423a9619cc</id>
         <sys_created_by>admin</sys_created_by>
@@ -1709,7 +1709,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_hub_step_ext_input_02947e3fdb6f7300bb528f423a9619cc</table>
         <value>{{step[cc08bc34-e78f-4865-ad6f-5ef3e21c11a6].response_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>02947e3fdb6f7300bb528f423a9619cc</id>
         <sys_created_by>admin</sys_created_by>
@@ -1721,7 +1721,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>status</field>
         <id>02947e3fdb6f7300bb528f423a9619cc</id>
         <sys_created_by>admin</sys_created_by>
@@ -1733,8 +1733,8 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_hub_step_ext_input_02947e3fdb6f7300bb528f423a9619cc</table>
         <value>{{step[cc08bc34-e78f-4865-ad6f-5ef3e21c11a6].status_code}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=02947e3fdb6f7300bb528f423a9619cc^sys_idNOT IN0e947e3fdb6f7300bb528f423a9619ce,ca947e3fdb6f7300bb528f423a9619d3"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=02947e3fdb6f7300bb528f423a9619cc^sys_idNOT IN0e947e3fdb6f7300bb528f423a9619ce,ca947e3fdb6f7300bb528f423a9619d3"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1815,7 +1815,7 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1896,8 +1896,8 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=02947e3fdb6f7300bb528f423a9619cc^sys_idNOT IN0e947e3fdb6f7300bb528f423a9619d8"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=02947e3fdb6f7300bb528f423a9619cc^sys_idNOT IN0e947e3fdb6f7300bb528f423a9619d8"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1978,7 +1978,7 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Update Remote Incident">3d947e3fdb6f7300bb528f423a961946</action>
         <cid>6f89b700-9726-46c2-b6cc-a3c95ab0ae92</cid>
         <extended_inputs/>
@@ -1999,8 +1999,8 @@ This action identifies remote instance incident using correlation id of the inci
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-04 19:13:18</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=06947e3fdb6f7300bb528f423a9619a9"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=06947e3fdb6f7300bb528f423a9619a9"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>06947e3fdb6f7300bb528f423a9619a9</document_key>
         <order>600</order>
@@ -2018,7 +2018,7 @@ This action identifies remote instance incident using correlation id of the inci
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>06947e3fdb6f7300bb528f423a9619a9</document_key>
         <order>400</order>
@@ -2032,8 +2032,8 @@ This action identifies remote instance incident using correlation id of the inci
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=06947e3fdb6f7300bb528f423a9619a9"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=06947e3fdb6f7300bb528f423a9619a9"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>06947e3fdb6f7300bb528f423a9619a9</id>
         <sys_created_by>admin</sys_created_by>
@@ -2045,7 +2045,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>incident_sys_id</field>
         <id>06947e3fdb6f7300bb528f423a9619a9</id>
         <sys_created_by>admin</sys_created_by>
@@ -2057,7 +2057,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_hub_step_ext_input_06947e3fdb6f7300bb528f423a9619a9</table>
         <value>{{action.ah_incident.sys_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>06947e3fdb6f7300bb528f423a9619a9</id>
         <sys_created_by>admin</sys_created_by>
@@ -2069,8 +2069,8 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=06947e3fdb6f7300bb528f423a9619a9^sys_idNOT IN82947e3fdb6f7300bb528f423a9619ac"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=06947e3fdb6f7300bb528f423a9619a9^sys_idNOT IN82947e3fdb6f7300bb528f423a9619ac"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2151,8 +2151,8 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=06947e3fdb6f7300bb528f423a9619a9^sys_idNOT IN4a947e3fdb6f7300bb528f423a9619b1"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=06947e3fdb6f7300bb528f423a9619a9^sys_idNOT IN4a947e3fdb6f7300bb528f423a9619b1"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2233,7 +2233,7 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Update Remote Incident">3d947e3fdb6f7300bb528f423a961946</action>
         <cid>65edef27-f9b6-4c83-8bcb-af1f31271c24</cid>
         <extended_inputs/>
@@ -2254,8 +2254,8 @@ This action identifies remote instance incident using correlation id of the inci
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-04 19:13:17</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=39947e3fdb6f7300bb528f423a96195c"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=39947e3fdb6f7300bb528f423a96195c"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>39947e3fdb6f7300bb528f423a96195c</document_key>
         <order>25</order>
@@ -2269,7 +2269,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>{}</value>
         <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>39947e3fdb6f7300bb528f423a96195c</document_key>
         <order>30</order>
@@ -2283,7 +2283,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Accept","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>39947e3fdb6f7300bb528f423a96195c</document_key>
         <order>20</order>
@@ -2297,7 +2297,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>/api/now/table/incident</value>
         <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>39947e3fdb6f7300bb528f423a96195c</document_key>
         <order>12</order>
@@ -2311,7 +2311,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>39947e3fdb6f7300bb528f423a96195c</document_key>
         <order>15</order>
@@ -2325,7 +2325,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>https://demonightlyus.service-now.com</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>39947e3fdb6f7300bb528f423a96195c</document_key>
         <order>10</order>
@@ -2339,7 +2339,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>328da1c1b320030024a3051a16a8dc86</value>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>39947e3fdb6f7300bb528f423a96195c</document_key>
         <order>13</order>
@@ -2353,8 +2353,8 @@ This action identifies remote instance incident using correlation id of the inci
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=39947e3fdb6f7300bb528f423a96195c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=39947e3fdb6f7300bb528f423a96195c"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>39947e3fdb6f7300bb528f423a96195c</id>
         <sys_created_by>admin</sys_created_by>
@@ -2366,7 +2366,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>base_url</field>
         <id>39947e3fdb6f7300bb528f423a96195c</id>
         <sys_created_by>admin</sys_created_by>
@@ -2378,7 +2378,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>capabilities</field>
         <id>39947e3fdb6f7300bb528f423a96195c</id>
         <sys_created_by>admin</sys_created_by>
@@ -2390,7 +2390,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>connection_alias</field>
         <id>39947e3fdb6f7300bb528f423a96195c</id>
         <sys_created_by>admin</sys_created_by>
@@ -2402,7 +2402,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>headers</field>
         <id>39947e3fdb6f7300bb528f423a96195c</id>
         <sys_created_by>admin</sys_created_by>
@@ -2414,7 +2414,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>query_params</field>
         <id>39947e3fdb6f7300bb528f423a96195c</id>
         <sys_created_by>admin</sys_created_by>
@@ -2426,7 +2426,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{"type":"ADV_NV","value":[{"name":"sysparm_fields","value":"sys_id","attributes":{}},{"name":"correlation_id","value":"{{action.ah_incident.number}}","attributes":{}}]}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>resource_path</field>
         <id>39947e3fdb6f7300bb528f423a96195c</id>
         <sys_created_by>admin</sys_created_by>
@@ -2438,7 +2438,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Update Remote Incident">3d947e3fdb6f7300bb528f423a961946</action>
         <cid>dd926b39-414f-48d6-b05d-fb336829c10f</cid>
         <extended_inputs/>
@@ -2459,8 +2459,8 @@ This action identifies remote instance incident using correlation id of the inci
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-04 19:13:18</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=bd947e3fdb6f7300bb528f423a961978"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=bd947e3fdb6f7300bb528f423a961978"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>bd947e3fdb6f7300bb528f423a961978</document_key>
         <order>600</order>
@@ -2485,7 +2485,7 @@ This action identifies remote instance incident using correlation id of the inci
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>bd947e3fdb6f7300bb528f423a961978</document_key>
         <order>400</order>
@@ -2499,8 +2499,8 @@ This action identifies remote instance incident using correlation id of the inci
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=bd947e3fdb6f7300bb528f423a961978"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=bd947e3fdb6f7300bb528f423a961978"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>bd947e3fdb6f7300bb528f423a961978</id>
         <sys_created_by>admin</sys_created_by>
@@ -2512,7 +2512,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>response</field>
         <id>bd947e3fdb6f7300bb528f423a961978</id>
         <sys_created_by>admin</sys_created_by>
@@ -2524,7 +2524,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_hub_step_ext_input_bd947e3fdb6f7300bb528f423a961978</table>
         <value>{{step[65edef27-f9b6-4c83-8bcb-af1f31271c24].response_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>bd947e3fdb6f7300bb528f423a961978</id>
         <sys_created_by>admin</sys_created_by>
@@ -2536,7 +2536,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>status</field>
         <id>bd947e3fdb6f7300bb528f423a961978</id>
         <sys_created_by>admin</sys_created_by>
@@ -2548,8 +2548,8 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_hub_step_ext_input_bd947e3fdb6f7300bb528f423a961978</table>
         <value>{{step[65edef27-f9b6-4c83-8bcb-af1f31271c24].status_code}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=bd947e3fdb6f7300bb528f423a961978^sys_idNOT IN31947e3fdb6f7300bb528f423a96198d,b9947e3fdb6f7300bb528f423a96197b"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=bd947e3fdb6f7300bb528f423a961978^sys_idNOT IN31947e3fdb6f7300bb528f423a96198d,b9947e3fdb6f7300bb528f423a96197b"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2630,7 +2630,7 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2711,8 +2711,8 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=bd947e3fdb6f7300bb528f423a961978^sys_idNOT IN42947e3fdb6f7300bb528f423a961992"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=bd947e3fdb6f7300bb528f423a961978^sys_idNOT IN42947e3fdb6f7300bb528f423a961992"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2793,7 +2793,7 @@ This action identifies remote instance incident using correlation id of the inci
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Update Remote Incident">3d947e3fdb6f7300bb528f423a961946</action>
         <cid>cc08bc34-e78f-4865-ad6f-5ef3e21c11a6</cid>
         <extended_inputs/>
@@ -2814,8 +2814,8 @@ This action identifies remote instance incident using correlation id of the inci
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-04 19:13:18</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=ce947e3fdb6f7300bb528f423a9619bb"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=ce947e3fdb6f7300bb528f423a9619bb"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>ce947e3fdb6f7300bb528f423a9619bb</document_key>
         <order>12</order>
@@ -2829,7 +2829,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>ce947e3fdb6f7300bb528f423a9619bb</document_key>
         <order>10</order>
@@ -2843,7 +2843,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>328da1c1b320030024a3051a16a8dc86</value>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>ce947e3fdb6f7300bb528f423a9619bb</document_key>
         <order>25</order>
@@ -2857,7 +2857,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>put</value>
         <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>ce947e3fdb6f7300bb528f423a9619bb</document_key>
         <order>15</order>
@@ -2871,7 +2871,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>https://demonightlyus.service-now.com</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>ce947e3fdb6f7300bb528f423a9619bb</document_key>
         <order>13</order>
@@ -2885,7 +2885,7 @@ This action identifies remote instance incident using correlation id of the inci
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>ce947e3fdb6f7300bb528f423a9619bb</document_key>
         <order>30</order>
@@ -2899,8 +2899,8 @@ This action identifies remote instance incident using correlation id of the inci
         <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"content-type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=ce947e3fdb6f7300bb528f423a9619bb"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=ce947e3fdb6f7300bb528f423a9619bb"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -2912,7 +2912,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>base_url</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -2924,7 +2924,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>body</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -2936,7 +2936,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{{step[6f89b700-9726-46c2-b6cc-a3c95ab0ae92].rest_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>capabilities</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -2948,7 +2948,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>connection_alias</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -2960,7 +2960,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>headers</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -2972,7 +2972,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>http_method</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -2984,7 +2984,7 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>resource_path</field>
         <id>ce947e3fdb6f7300bb528f423a9619bb</id>
         <sys_created_by>admin</sys_created_by>
@@ -2996,8 +2996,8 @@ This action identifies remote instance incident using correlation id of the inci
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>/api/now/table/incident/{{step[dd926b39-414f-48d6-b05d-fb336829c10f].incident_sys_id}}</value>
     </sys_element_mapping>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_3d947e3fdb6f7300bb528f423a961946^sys_idNOT INfd947e3fdb6f7300bb528f423a96195a"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_3d947e3fdb6f7300bb528f423a961946^sys_idNOT INfd947e3fdb6f7300bb528f423a96195a"/>
+    <sys_documentation action="DELETE">
         <element>ah_incident</element>
         <help/>
         <hint/>
@@ -3020,8 +3020,8 @@ This action identifies remote instance incident using correlation id of the inci
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_3d947e3fdb6f7300bb528f423a961946^sys_idNOT IN82947e3fdb6f7300bb528f423a9619e8"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_3d947e3fdb6f7300bb528f423a961946^sys_idNOT IN82947e3fdb6f7300bb528f423a9619e8"/>
+    <sys_documentation action="DELETE">
         <element>Status</element>
         <help/>
         <hint/>

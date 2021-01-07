@@ -38,10 +38,10 @@
         <sys_updated_on>2019-09-19 20:43:38</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
-    <sys_translated_text action="delete_multiple" query="documentkey=eb1918f8db044810bb528f423a961950"/>
-    <sys_variable_value action="delete_multiple" query="document_key=eb1918f8db044810bb528f423a961950"/>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=eb1918f8db044810bb528f423a961950^sys_idNOT IN631918f8db044810bb528f423a961953"/>
-    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+    <sys_translated_text action="DELETE" query="documentkey=eb1918f8db044810bb528f423a961950"/>
+    <sys_variable_value action="DELETE" query="document_key=eb1918f8db044810bb528f423a961950"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=eb1918f8db044810bb528f423a961950^sys_idNOT IN631918f8db044810bb528f423a961953"/>
+    <sys_flow_cat_variable_model action="DELETE">
         <id>eb1918f8db044810bb528f423a961950</id>
         <name>Connector - Datastream Test</name>
         <sys_created_by>bobby.edmonds</sys_created_by>

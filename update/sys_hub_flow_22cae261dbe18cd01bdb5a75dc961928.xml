@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -14,9 +15,11 @@
         <latest_snapshot>19eb2225dbe18cd01bdb5a75dc9619b8</latest_snapshot>
         <master_snapshot>19eb2225dbe18cd01bdb5a75dc9619b8</master_snapshot>
         <name>Process Staged Records</name>
+        <natlang/>
         <outputs/>
         <remote_trigger_id/>
         <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -95,6 +98,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Process Staged Records">22cae261dbe18cd01bdb5a75dc961928</flow>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -523,6 +527,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Process Staged Records">22cae261dbe18cd01bdb5a75dc961928</flow>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -681,10 +686,12 @@
         <label_cache>[{"name":"535ee39f-98aa-43bc-a49c-5140a74c30d3.answer","label":"1➛Answer","reference_display":"Answer","type":"string","base_type":"string"},{"name":"535ee39f-98aa-43bc-a49c-5140a74c30d3.answer_display","label":"1➛Answer Display","reference_display":"Answer Display","type":"string","base_type":"string"},{"name":"subflow.table","label":"Input➛Table","type":"string","base_type":"string"},{"name":"3b7b0cbe-bbce-4636-a7e0-be2a012a7aff.answer","label":"1➛Table Record","reference":"sys_db_object","reference_display":"Table","type":"reference","base_type":"reference"},{"name":"c5f5f2e2-4e38-4a13-97be-d2d43a2fb3ce.import_record","label":"1.1.1➛Import Record","reference":"x_snc_con_inc_ebonding","reference_display":"Connector eBonding","type":"reference","base_type":"reference"},{"name":"subflow.api_key","label":"Input➛API key","type":"string","base_type":"string"},{"name":"subflow.stage_id","label":"Input➛Stage ID","type":"string","base_type":"string"}]</label_cache>
         <master>true</master>
         <name>Process Staged Records</name>
+        <natlang/>
         <outputs/>
         <parent_flow display_value="Process Staged Records">22cae261dbe18cd01bdb5a75dc961928</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
@@ -761,6 +768,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Process Staged Records">19eb2225dbe18cd01bdb5a75dc9619b8</flow>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1189,6 +1197,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Process Staged Records">19eb2225dbe18cd01bdb5a75dc9619b8</flow>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>

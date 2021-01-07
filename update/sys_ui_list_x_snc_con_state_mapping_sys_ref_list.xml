@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>label</element>
-            <list_id display_value="x_snc_con_state_mapping" element="NULL" name="x_snc_con_state_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="e821ffeadbc084101bdb5a75dc961904">eda08c12db3b7300bb528f423a961901</list_id>
+            <list_id display_value="x_snc_con_state_mapping" element="NULL" name="x_snc_con_state_mapping" parent="NULL" relationship="NULL" sys_domain="global" view="5d77716070002010d152c959a69db524">eda08c12db3b7300bb528f423a961901</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>bobby.edmonds</sys_updated_by>
             <sys_updated_on>2019-09-12 00:31:55</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">e821ffeadbc084101bdb5a75dc961904</view>
+            <view display_value="Reference List" name="sys_ref_list">5d77716070002010d152c959a69db524</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

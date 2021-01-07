@@ -34,6 +34,7 @@ The fields passed to the remote instance are the display names of the following 
         <latest_snapshot>39618ba9db258cd01bdb5a75dc9619fd</latest_snapshot>
         <master_snapshot>a8b640eadb8044102443e7148a96191d</master_snapshot>
         <name>Connector - Retry Staging</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <state>published</state>
@@ -3286,6 +3287,7 @@ The fields passed to the remote instance are the display names of the following 
         <label_cache>[{"name":"{{action.stage}}","label":"action➛Stage","type":"action","ref":""},{"name":"{{action.stage.endpoint.credential_alias}}","label":"action➛Stage➛Endpoint➛Credential Alias","type":"action","ref":"sys_alias"},{"name":"{{action.stage.endpoint.endpoint}}","label":"action➛Stage➛Endpoint➛Endpoint","type":"action","ref":""},{"name":"{{action.stage.endpoint.api_key}}","label":"action➛Stage➛Endpoint➛Api key","type":"action","ref":""},{"name":"{{action.stage.sys_id}}","label":"action➛Stage➛Sys ID","type":"action","ref":""},{"name":"{{action.stage.endpoint.credential_alias.sys_id}}","label":"action➛Stage➛Endpoint➛Credential Alias➛Sys ID","type":"action","ref":""},{"name":"{{action.stage.table}}","label":"action➛Stage➛Table","type":"action","ref":""},{"name":"{{step[318456df-9525-4fa2-9781-73c285c6f087].response_body}}","label":"step➛Connector Push➛Response Body","type":"step","ref":""},{"name":"{{step[318456df-9525-4fa2-9781-73c285c6f087].status_code}}","label":"step➛Connector Push➛Status Code","type":"step","ref":""},{"name":"{{step[5c4a94d2-a652-4a5e-aa7a-de1b00aa1459].credential_alias}}","label":"step➛Parse inputs for REST➛Credential Alias","type":"step","ref":""},{"name":"{{step[5c4a94d2-a652-4a5e-aa7a-de1b00aa1459].endpoint_url}}","label":"step➛Parse inputs for REST➛Endpoint URL","type":"step","ref":""},{"name":"{{step[5c4a94d2-a652-4a5e-aa7a-de1b00aa1459].table}}","label":"step➛Parse inputs for REST➛Table","type":"step","ref":""},{"name":"{{step[fa750595-9371-4d87-8054-f27ee4d825e2].activity}}","label":"step➛Parse Response➛Activity","type":"step","ref":""},{"name":"{{step[fa750595-9371-4d87-8054-f27ee4d825e2].state}}","label":"step➛Parse Response➛State","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>Connector - Retry Staging</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <parent_action display_value="Connector - Retry Staging">bdf77f1edb4044102443e7148a961966</parent_action>

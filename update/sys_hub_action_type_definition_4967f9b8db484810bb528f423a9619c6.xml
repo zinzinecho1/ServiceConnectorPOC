@@ -34,6 +34,7 @@ The fields passed to the remote instance are the display names of the following 
         <latest_snapshot>af41c7a9db258cd01bdb5a75dc96191a</latest_snapshot>
         <master_snapshot>2fed7130db884810bb528f423a961981</master_snapshot>
         <name>Connector - Payload Staging</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <state>published</state>
@@ -3684,6 +3685,7 @@ The fields passed to the remote instance are the display names of the following 
         <label_cache>[{"name":"{{action.api_key}}","label":"action➛API Key","type":"action","ref":""},{"name":"{{action.record}}","label":"action➛Record","type":"action","ref":""},{"name":"{{step[318456df-9525-4fa2-9781-73c285c6f087].response_body}}","label":"step➛Connector Push➛Response Body","type":"step","ref":""},{"name":"{{step[318456df-9525-4fa2-9781-73c285c6f087].status_code}}","label":"step➛Connector Push➛Status Code","type":"step","ref":""},{"name":"{{step[97986a6d-4c91-4b4b-afa2-8eca3d070e2f].stage}}","label":"step➛Create Payload➛stage","type":"step","ref":"x_snc_con_stage"},{"name":"{{step[97986a6d-4c91-4b4b-afa2-8eca3d070e2f].stage_id}}","label":"step➛Create Payload➛Stage ID","type":"step","ref":""},{"name":"{{step[97986a6d-4c91-4b4b-afa2-8eca3d070e2f].credential_alias}}","label":"step➛Create Payload➛Credential Alias","type":"step","ref":""},{"name":"{{step[97986a6d-4c91-4b4b-afa2-8eca3d070e2f].endpoint}}","label":"step➛Create Payload➛Endpoint","type":"step","ref":""},{"name":"{{step[8ad415a1-949f-46f7-bf3f-a674e88f5c04].activity}}","label":"step➛Parse Response➛Activity","type":"step","ref":""},{"name":"{{step[97986a6d-4c91-4b4b-afa2-8eca3d070e2f].table}}","label":"step➛Create Payload➛Table","type":"step","ref":""},{"name":"{{step[8ad415a1-949f-46f7-bf3f-a674e88f5c04].state}}","label":"step➛Parse Response➛State","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>Connector - Payload Staging</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <parent_action display_value="Connector - Payload Staging">4967f9b8db484810bb528f423a9619c6</parent_action>

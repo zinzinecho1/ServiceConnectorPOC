@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -14,9 +15,11 @@
         <latest_snapshot>ffb272eadbc844102443e7148a9619f0</latest_snapshot>
         <master_snapshot>ffb272eadbc844102443e7148a9619f0</master_snapshot>
         <name>Connector - Process Staged Records</name>
+        <natlang/>
         <outputs/>
         <remote_trigger_id/>
         <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -48,6 +51,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">1740326adbc844102443e7148a9619e6</flow>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
@@ -160,6 +164,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">1740326adbc844102443e7148a9619e6</flow>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -201,6 +206,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">1740326adbc844102443e7148a9619e6</flow>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
@@ -243,6 +249,7 @@
         <decision_table_inputs/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">1740326adbc844102443e7148a9619e6</flow>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
@@ -736,6 +743,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">1740326adbc844102443e7148a9619e6</flow>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
@@ -777,6 +785,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">1740326adbc844102443e7148a9619e6</flow>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -818,6 +827,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">1740326adbc844102443e7148a9619e6</flow>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
@@ -860,6 +870,7 @@
         <decision_table_inputs/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">1740326adbc844102443e7148a9619e6</flow>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
@@ -1059,10 +1070,12 @@
         <label_cache>[{"name":"19dc23a3-d554-4250-baa4-ff598e6e1f5d.answer","label":"1➛Table Record","reference":"sys_db_object","reference_display":"Table","type":"reference","base_type":"reference"},{"name":"subflow.table","label":"Input➛Table","type":"string","base_type":"string"}]</label_cache>
         <master>true</master>
         <name>Connector - Process Staged Records</name>
+        <natlang/>
         <outputs/>
         <parent_flow display_value="Connector - Process Staged Records">1740326adbc844102443e7148a9619e6</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
@@ -1092,6 +1105,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">ffb272eadbc844102443e7148a9619f0</flow>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
@@ -1133,6 +1147,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">ffb272eadbc844102443e7148a9619f0</flow>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
@@ -1175,6 +1190,7 @@
         <decision_table_inputs/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">ffb272eadbc844102443e7148a9619f0</flow>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
@@ -1257,6 +1273,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">ffb272eadbc844102443e7148a9619f0</flow>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1732,6 +1749,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">ffb272eadbc844102443e7148a9619f0</flow>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
@@ -1773,6 +1791,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">ffb272eadbc844102443e7148a9619f0</flow>
         <inputs/>
         <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
@@ -1815,6 +1834,7 @@
         <decision_table_inputs/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">ffb272eadbc844102443e7148a9619f0</flow>
         <inputs/>
         <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
@@ -1897,6 +1917,7 @@
         <decision_table/>
         <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="Connector - Process Staged Records">ffb272eadbc844102443e7148a9619f0</flow>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>

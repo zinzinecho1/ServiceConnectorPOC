@@ -47,13 +47,12 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="Domain" name="domain">domain</reference>
+        <reference display_value="Domain">domain</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
         <reference_qual>type=Customer^EQ</reference_qual>
-        <reference_qual_condition table="domain">type=Customer^EQ<item display_value="Customer" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="Customer"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <reference_qual_condition table="domain">type=Customer^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
         <sizeclass/>

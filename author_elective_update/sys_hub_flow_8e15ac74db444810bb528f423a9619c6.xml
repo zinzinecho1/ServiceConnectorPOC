@@ -38,10 +38,10 @@
         <sys_updated_on>2019-09-19 21:57:23</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
-    <sys_translated_text action="delete_multiple" query="documentkey=8e15ac74db444810bb528f423a9619c6"/>
-    <sys_variable_value action="delete_multiple" query="document_key=8e15ac74db444810bb528f423a9619c6"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=8e15ac74db444810bb528f423a9619c6^sys_idNOT IN73f9e07cdb444810bb528f423a961907,b7f9a07cdb444810bb528f423a9619f4"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+    <sys_translated_text action="DELETE" query="documentkey=8e15ac74db444810bb528f423a9619c6"/>
+    <sys_variable_value action="DELETE" query="document_key=8e15ac74db444810bb528f423a9619c6"/>
+    <sys_hub_flow_component action="DELETE" query="flow=8e15ac74db444810bb528f423a9619c6^sys_idNOT IN73f9e07cdb444810bb528f423a961907,b7f9a07cdb444810bb528f423a9619f4"/>
+    <sys_hub_action_instance action="DELETE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Connector - Data Stream">ff64d8f4db044810bb528f423a961973</action_type>
@@ -62,9 +62,9 @@
         <sys_updated_on>2019-09-19 21:57:23</sys_updated_on>
         <ui_id>fc1b8b7c-7a88-4685-957f-58a31496a836</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=73f9e07cdb444810bb528f423a961907"/>
-    <sys_element_mapping action="delete_multiple" query="id=73f9e07cdb444810bb528f423a961907"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=73f9e07cdb444810bb528f423a961907"/>
+    <sys_element_mapping action="DELETE" query="id=73f9e07cdb444810bb528f423a961907"/>
+    <sys_element_mapping action="DELETE">
         <field>payload</field>
         <id>73f9e07cdb444810bb528f423a961907</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -76,7 +76,7 @@
         <table>var__m_sys_hub_action_input_ff64d8f4db044810bb528f423a961973</table>
         <value>{{Created_1.current.payload}}</value>
     </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+    <sys_hub_action_instance action="DELETE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
@@ -97,9 +97,9 @@
         <sys_updated_on>2019-09-19 21:57:23</sys_updated_on>
         <ui_id>dfefa862-4ea4-4a1c-b5b1-32ec0769532d</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=b7f9a07cdb444810bb528f423a9619f4"/>
-    <sys_element_mapping action="delete_multiple" query="id=b7f9a07cdb444810bb528f423a9619f4"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=b7f9a07cdb444810bb528f423a9619f4"/>
+    <sys_element_mapping action="DELETE" query="id=b7f9a07cdb444810bb528f423a9619f4"/>
+    <sys_element_mapping action="DELETE">
         <field>log_message</field>
         <id>b7f9a07cdb444810bb528f423a9619f4</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -111,8 +111,8 @@
         <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
         <value>{{fc1b8b7c-7a88-4685-957f-58a31496a836.record}}</value>
     </sys_element_mapping>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=8e15ac74db444810bb528f423a9619c6^sys_idNOT INebf9a07cdb444810bb528f423a9619ef"/>
-    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+    <sys_hub_trigger_instance action="DELETE" query="flow=8e15ac74db444810bb528f423a9619c6^sys_idNOT INebf9a07cdb444810bb528f423a9619ef"/>
+    <sys_hub_trigger_instance action="DELETE">
         <comment/>
         <display_text/>
         <flow display_value="Connector - Data Stream Test">8e15ac74db444810bb528f423a9619c6</flow>
@@ -130,8 +130,8 @@
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
     </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=ebf9a07cdb444810bb528f423a9619ef"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=ebf9a07cdb444810bb528f423a9619ef"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_trigger_instance</document>
         <document_key>ebf9a07cdb444810bb528f423a9619ef</document_key>
         <order>100</order>
@@ -145,7 +145,7 @@
         <value>^EQ</value>
         <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_trigger_instance</document>
         <document_key>ebf9a07cdb444810bb528f423a9619ef</document_key>
         <order>1</order>
@@ -159,8 +159,8 @@
         <value>x_snc_con_stage</value>
         <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
     </sys_variable_value>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=8e15ac74db444810bb528f423a9619c6^sys_idNOT INc215ac74db444810bb528f423a9619c8"/>
-    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+    <sys_flow_cat_variable_model action="DELETE" query="id=8e15ac74db444810bb528f423a9619c6^sys_idNOT INc215ac74db444810bb528f423a9619c8"/>
+    <sys_flow_cat_variable_model action="DELETE">
         <id>8e15ac74db444810bb528f423a9619c6</id>
         <name>Connector - Data Stream Test</name>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -171,8 +171,8 @@
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-19 21:35:58</sys_updated_on>
     </sys_flow_cat_variable_model>
-    <sys_hub_flow_input action="delete_multiple" query="model=8e15ac74db444810bb528f423a9619c6^sys_idNOT INabf9a07cdb444810bb528f423a9619bd,eff9a07cdb444810bb528f423a9619c3"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+    <sys_hub_flow_input action="DELETE" query="model=8e15ac74db444810bb528f423a9619c6^sys_idNOT INabf9a07cdb444810bb528f423a9619bd,eff9a07cdb444810bb528f423a9619c3"/>
+    <sys_hub_flow_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -253,7 +253,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+    <sys_hub_flow_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -334,8 +334,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=8e15ac74db444810bb528f423a9619c6^sys_idNOT IN73f9e07cdb444810bb528f423a961907,b7f9a07cdb444810bb528f423a9619f4"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+    <sys_hub_action_instance action="DELETE" query="flow=8e15ac74db444810bb528f423a9619c6^sys_idNOT IN73f9e07cdb444810bb528f423a961907,b7f9a07cdb444810bb528f423a9619f4"/>
+    <sys_hub_action_instance action="DELETE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Connector - Data Stream">ff64d8f4db044810bb528f423a961973</action_type>
@@ -356,9 +356,9 @@
         <sys_updated_on>2019-09-19 21:57:23</sys_updated_on>
         <ui_id>fc1b8b7c-7a88-4685-957f-58a31496a836</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=73f9e07cdb444810bb528f423a961907"/>
-    <sys_element_mapping action="delete_multiple" query="id=73f9e07cdb444810bb528f423a961907"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=73f9e07cdb444810bb528f423a961907"/>
+    <sys_element_mapping action="DELETE" query="id=73f9e07cdb444810bb528f423a961907"/>
+    <sys_element_mapping action="DELETE">
         <field>payload</field>
         <id>73f9e07cdb444810bb528f423a961907</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -370,7 +370,7 @@
         <table>var__m_sys_hub_action_input_ff64d8f4db044810bb528f423a961973</table>
         <value>{{Created_1.current.payload}}</value>
     </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+    <sys_hub_action_instance action="DELETE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
@@ -391,9 +391,9 @@
         <sys_updated_on>2019-09-19 21:57:23</sys_updated_on>
         <ui_id>dfefa862-4ea4-4a1c-b5b1-32ec0769532d</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=b7f9a07cdb444810bb528f423a9619f4"/>
-    <sys_element_mapping action="delete_multiple" query="id=b7f9a07cdb444810bb528f423a9619f4"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=b7f9a07cdb444810bb528f423a9619f4"/>
+    <sys_element_mapping action="DELETE" query="id=b7f9a07cdb444810bb528f423a9619f4"/>
+    <sys_element_mapping action="DELETE">
         <field>log_message</field>
         <id>b7f9a07cdb444810bb528f423a9619f4</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -405,8 +405,8 @@
         <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
         <value>{{fc1b8b7c-7a88-4685-957f-58a31496a836.record}}</value>
     </sys_element_mapping>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_8e15ac74db444810bb528f423a9619c6^sys_idNOT IN23f9a07cdb444810bb528f423a9619c3,abf9a07cdb444810bb528f423a9619ed"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_8e15ac74db444810bb528f423a9619c6^sys_idNOT IN23f9a07cdb444810bb528f423a9619c3,abf9a07cdb444810bb528f423a9619ed"/>
+    <sys_documentation action="DELETE">
         <element>current</element>
         <help/>
         <hint/>
@@ -429,7 +429,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>table_name</element>
         <help/>
         <hint/>

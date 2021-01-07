@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Endpoint" max_length="40" name="x_snc_con_endpoint" type="collection">
+    <element label="Endpoint" max_length="40" name="x_snc_con_endpoint" sizeclass="2" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Api key" max_length="32" name="api_key" read_only="true" type="string"/>
         <element display="true" label="Company" mandatory="true" max_length="32" name="company" reference="core_company" reference_qual="sys_domainISNOTEMPTY^sys_domain!=global^EQ" reference_qual_condition="sys_domainISNOTEMPTY^sys_domain!=global^EQ" type="reference"/>

@@ -54,10 +54,10 @@ The fields passed to the remote instance are the display names of the following 
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
-    <sys_translated_text action="delete_multiple" query="documentkey=64ae80addb3fb700bb528f423a96191d"/>
-    <sys_variable_value action="delete_multiple" query="document_key=64ae80addb3fb700bb528f423a96191d"/>
-    <sys_hub_step_instance action="delete_multiple" query="action=64ae80addb3fb700bb528f423a96191d^sys_idNOT IN05ae80addb3fb700bb528f423a961966,b4ae80addb3fb700bb528f423a96194e,bcae80addb3fb700bb528f423a961932"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_translated_text action="DELETE" query="documentkey=64ae80addb3fb700bb528f423a96191d"/>
+    <sys_variable_value action="DELETE" query="document_key=64ae80addb3fb700bb528f423a96191d"/>
+    <sys_hub_step_instance action="DELETE" query="action=64ae80addb3fb700bb528f423a96191d^sys_idNOT IN05ae80addb3fb700bb528f423a961966,b4ae80addb3fb700bb528f423a96194e,bcae80addb3fb700bb528f423a961932"/>
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Incident Update Correlation ID">64ae80addb3fb700bb528f423a96191d</action>
         <cid>5dd0b555-257a-4e1d-a277-9187dc867ee5</cid>
         <extended_inputs/>
@@ -78,8 +78,8 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:37:36</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=05ae80addb3fb700bb528f423a961966"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=05ae80addb3fb700bb528f423a961966"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>05ae80addb3fb700bb528f423a961966</document_key>
         <order>600</order>
@@ -101,7 +101,7 @@ The fields passed to the remote instance are the display names of the following 
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>05ae80addb3fb700bb528f423a961966</document_key>
         <order>400</order>
@@ -115,8 +115,8 @@ The fields passed to the remote instance are the display names of the following 
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=05ae80addb3fb700bb528f423a961966"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=05ae80addb3fb700bb528f423a961966"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>05ae80addb3fb700bb528f423a961966</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -128,7 +128,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>response</field>
         <id>05ae80addb3fb700bb528f423a961966</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -140,7 +140,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_05ae80addb3fb700bb528f423a961966</table>
         <value>{{step[318456df-9525-4fa2-9781-73c285c6f087].response_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>05ae80addb3fb700bb528f423a961966</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -152,7 +152,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>status</field>
         <id>05ae80addb3fb700bb528f423a961966</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -164,8 +164,8 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_05ae80addb3fb700bb528f423a961966</table>
         <value>{{step[318456df-9525-4fa2-9781-73c285c6f087].status_code}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=05ae80addb3fb700bb528f423a961966^sys_idNOT IN81ae80addb3fb700bb528f423a961969,8dae80addb3fb700bb528f423a96197a"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=05ae80addb3fb700bb528f423a961966^sys_idNOT IN81ae80addb3fb700bb528f423a961969,8dae80addb3fb700bb528f423a96197a"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -246,7 +246,7 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -327,7 +327,7 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Incident Update Correlation ID">64ae80addb3fb700bb528f423a96191d</action>
         <cid>318456df-9525-4fa2-9781-73c285c6f087</cid>
         <extended_inputs/>
@@ -348,8 +348,8 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:56:54</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=b4ae80addb3fb700bb528f423a96194e"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=b4ae80addb3fb700bb528f423a96194e"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>15</order>
@@ -363,7 +363,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>https://serviceconnectaus.service-now.com</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>10</order>
@@ -377,7 +377,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>3f678f3bdbef7300bb528f423a9619de</value>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>13</order>
@@ -391,7 +391,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>25</order>
@@ -405,7 +405,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>post</value>
         <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>25</order>
@@ -419,7 +419,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"sysparm_fields","value":" number, correlation_id"},{"attributes":{},"name":"sysparm_input_display_value","value":"true"}]}</value>
         <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>30</order>
@@ -433,7 +433,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"content-type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>12</order>
@@ -447,7 +447,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>20</order>
@@ -461,8 +461,8 @@ The fields passed to the remote instance are the display names of the following 
         <value>/api/now/table/incident</value>
         <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=b4ae80addb3fb700bb528f423a96194e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=b4ae80addb3fb700bb528f423a96194e"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -474,7 +474,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>base_url</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -486,7 +486,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>body</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -499,7 +499,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>
 {{step[97986a6d-4c91-4b4b-afa2-8eca3d070e2f].rest_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>capabilities</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -511,7 +511,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>connection_alias</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -523,7 +523,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>headers</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -535,7 +535,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>http_method</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -547,7 +547,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>query_params</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -559,7 +559,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>resource_path</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -571,8 +571,8 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=b4ae80addb3fb700bb528f423a96194e^sys_idNOT IN38ae80addb3fb700bb528f423a961954"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=b4ae80addb3fb700bb528f423a96194e^sys_idNOT IN38ae80addb3fb700bb528f423a961954"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -653,8 +653,8 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=b4ae80addb3fb700bb528f423a96194e^sys_idNOT IN38ae80addb3fb700bb528f423a96195c"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+    <sys_hub_input_scripts action="DELETE" query="instance=b4ae80addb3fb700bb528f423a96194e^sys_idNOT IN38ae80addb3fb700bb528f423a96195c"/>
+    <sys_hub_input_scripts action="DELETE">
         <active>false</active>
         <input_name>connection_alias</input_name>
         <instance>b4ae80addb3fb700bb528f423a96194e</instance>
@@ -667,7 +667,7 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:37:36</sys_updated_on>
     </sys_hub_input_scripts>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Incident Update Correlation ID">64ae80addb3fb700bb528f423a96191d</action>
         <cid>97986a6d-4c91-4b4b-afa2-8eca3d070e2f</cid>
         <extended_inputs/>
@@ -688,8 +688,8 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:48:55</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=bcae80addb3fb700bb528f423a961932"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=bcae80addb3fb700bb528f423a961932"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>bcae80addb3fb700bb528f423a961932</document_key>
         <order>600</order>
@@ -707,7 +707,7 @@ The fields passed to the remote instance are the display names of the following 
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>bcae80addb3fb700bb528f423a961932</document_key>
         <order>400</order>
@@ -721,8 +721,8 @@ The fields passed to the remote instance are the display names of the following 
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=bcae80addb3fb700bb528f423a961932"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=bcae80addb3fb700bb528f423a961932"/>
+    <sys_element_mapping action="DELETE">
         <field>api_key</field>
         <id>bcae80addb3fb700bb528f423a961932</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -734,7 +734,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_bcae80addb3fb700bb528f423a961932</table>
         <value>{{action.api_key}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>bcae80addb3fb700bb528f423a961932</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -746,7 +746,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>correlation_id</field>
         <id>bcae80addb3fb700bb528f423a961932</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -758,7 +758,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_bcae80addb3fb700bb528f423a961932</table>
         <value>{{action.ah_incident.correlation_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>incident_sys_id</field>
         <id>bcae80addb3fb700bb528f423a961932</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -770,7 +770,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_bcae80addb3fb700bb528f423a961932</table>
         <value>{{action.ah_incident.sys_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>bcae80addb3fb700bb528f423a961932</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -782,8 +782,8 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=bcae80addb3fb700bb528f423a961932^sys_idNOT IN34ae80addb3fb700bb528f423a961936,d9e09021db7fb700bb528f423a961934"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=bcae80addb3fb700bb528f423a961932^sys_idNOT IN34ae80addb3fb700bb528f423a961936,d9e09021db7fb700bb528f423a961934"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -864,7 +864,7 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -945,8 +945,8 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=bcae80addb3fb700bb528f423a961932^sys_idNOT IN38ae80addb3fb700bb528f423a961941"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=bcae80addb3fb700bb528f423a961932^sys_idNOT IN38ae80addb3fb700bb528f423a961941"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1027,8 +1027,8 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_action_input action="delete_multiple" query="model=64ae80addb3fb700bb528f423a96191d^sys_idNOT IN68ae80addb3fb700bb528f423a961921,b8ae80addb3fb700bb528f423a961927"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
+    <sys_hub_action_input action="DELETE" query="model=64ae80addb3fb700bb528f423a96191d^sys_idNOT IN68ae80addb3fb700bb528f423a961921,b8ae80addb3fb700bb528f423a961927"/>
+    <sys_hub_action_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1109,7 +1109,7 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
+    <sys_hub_action_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1190,8 +1190,8 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_step_instance action="delete_multiple" query="action=64ae80addb3fb700bb528f423a96191d^sys_idNOT IN05ae80addb3fb700bb528f423a961966,b4ae80addb3fb700bb528f423a96194e,bcae80addb3fb700bb528f423a961932"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE" query="action=64ae80addb3fb700bb528f423a96191d^sys_idNOT IN05ae80addb3fb700bb528f423a961966,b4ae80addb3fb700bb528f423a96194e,bcae80addb3fb700bb528f423a961932"/>
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Incident Update Correlation ID">64ae80addb3fb700bb528f423a96191d</action>
         <cid>5dd0b555-257a-4e1d-a277-9187dc867ee5</cid>
         <extended_inputs/>
@@ -1212,8 +1212,8 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:37:36</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=05ae80addb3fb700bb528f423a961966"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=05ae80addb3fb700bb528f423a961966"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>05ae80addb3fb700bb528f423a961966</document_key>
         <order>600</order>
@@ -1235,7 +1235,7 @@ The fields passed to the remote instance are the display names of the following 
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>05ae80addb3fb700bb528f423a961966</document_key>
         <order>400</order>
@@ -1249,8 +1249,8 @@ The fields passed to the remote instance are the display names of the following 
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=05ae80addb3fb700bb528f423a961966"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=05ae80addb3fb700bb528f423a961966"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>05ae80addb3fb700bb528f423a961966</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1262,7 +1262,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>response</field>
         <id>05ae80addb3fb700bb528f423a961966</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1274,7 +1274,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_05ae80addb3fb700bb528f423a961966</table>
         <value>{{step[318456df-9525-4fa2-9781-73c285c6f087].response_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>05ae80addb3fb700bb528f423a961966</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1286,7 +1286,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>status</field>
         <id>05ae80addb3fb700bb528f423a961966</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1298,8 +1298,8 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_05ae80addb3fb700bb528f423a961966</table>
         <value>{{step[318456df-9525-4fa2-9781-73c285c6f087].status_code}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=05ae80addb3fb700bb528f423a961966^sys_idNOT IN81ae80addb3fb700bb528f423a961969,8dae80addb3fb700bb528f423a96197a"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=05ae80addb3fb700bb528f423a961966^sys_idNOT IN81ae80addb3fb700bb528f423a961969,8dae80addb3fb700bb528f423a96197a"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1380,7 +1380,7 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1461,7 +1461,7 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Incident Update Correlation ID">64ae80addb3fb700bb528f423a96191d</action>
         <cid>318456df-9525-4fa2-9781-73c285c6f087</cid>
         <extended_inputs/>
@@ -1482,8 +1482,8 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:56:54</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=b4ae80addb3fb700bb528f423a96194e"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=b4ae80addb3fb700bb528f423a96194e"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>15</order>
@@ -1497,7 +1497,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>https://serviceconnectaus.service-now.com</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>10</order>
@@ -1511,7 +1511,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>3f678f3bdbef7300bb528f423a9619de</value>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>13</order>
@@ -1525,7 +1525,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>25</order>
@@ -1539,7 +1539,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>post</value>
         <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>25</order>
@@ -1553,7 +1553,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"sysparm_fields","value":" number, correlation_id"},{"attributes":{},"name":"sysparm_input_display_value","value":"true"}]}</value>
         <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>30</order>
@@ -1567,7 +1567,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"content-type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>12</order>
@@ -1581,7 +1581,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>b4ae80addb3fb700bb528f423a96194e</document_key>
         <order>20</order>
@@ -1595,8 +1595,8 @@ The fields passed to the remote instance are the display names of the following 
         <value>/api/now/table/incident</value>
         <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=b4ae80addb3fb700bb528f423a96194e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=b4ae80addb3fb700bb528f423a96194e"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1608,7 +1608,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>base_url</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1620,7 +1620,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>body</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1633,7 +1633,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>
 {{step[97986a6d-4c91-4b4b-afa2-8eca3d070e2f].rest_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>capabilities</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1645,7 +1645,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>connection_alias</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1657,7 +1657,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>headers</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1669,7 +1669,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>http_method</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1681,7 +1681,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>query_params</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1693,7 +1693,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>resource_path</field>
         <id>b4ae80addb3fb700bb528f423a96194e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1705,8 +1705,8 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=b4ae80addb3fb700bb528f423a96194e^sys_idNOT IN38ae80addb3fb700bb528f423a961954"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=b4ae80addb3fb700bb528f423a96194e^sys_idNOT IN38ae80addb3fb700bb528f423a961954"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1787,8 +1787,8 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=b4ae80addb3fb700bb528f423a96194e^sys_idNOT IN38ae80addb3fb700bb528f423a96195c"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+    <sys_hub_input_scripts action="DELETE" query="instance=b4ae80addb3fb700bb528f423a96194e^sys_idNOT IN38ae80addb3fb700bb528f423a96195c"/>
+    <sys_hub_input_scripts action="DELETE">
         <active>false</active>
         <input_name>connection_alias</input_name>
         <instance>b4ae80addb3fb700bb528f423a96194e</instance>
@@ -1801,7 +1801,7 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:37:36</sys_updated_on>
     </sys_hub_input_scripts>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Incident Update Correlation ID">64ae80addb3fb700bb528f423a96191d</action>
         <cid>97986a6d-4c91-4b4b-afa2-8eca3d070e2f</cid>
         <extended_inputs/>
@@ -1822,8 +1822,8 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:48:55</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=bcae80addb3fb700bb528f423a961932"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=bcae80addb3fb700bb528f423a961932"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>bcae80addb3fb700bb528f423a961932</document_key>
         <order>600</order>
@@ -1841,7 +1841,7 @@ The fields passed to the remote instance are the display names of the following 
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>bcae80addb3fb700bb528f423a961932</document_key>
         <order>400</order>
@@ -1855,8 +1855,8 @@ The fields passed to the remote instance are the display names of the following 
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=bcae80addb3fb700bb528f423a961932"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=bcae80addb3fb700bb528f423a961932"/>
+    <sys_element_mapping action="DELETE">
         <field>api_key</field>
         <id>bcae80addb3fb700bb528f423a961932</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1868,7 +1868,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_bcae80addb3fb700bb528f423a961932</table>
         <value>{{action.api_key}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>bcae80addb3fb700bb528f423a961932</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1880,7 +1880,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>correlation_id</field>
         <id>bcae80addb3fb700bb528f423a961932</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1892,7 +1892,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_bcae80addb3fb700bb528f423a961932</table>
         <value>{{action.ah_incident.correlation_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>incident_sys_id</field>
         <id>bcae80addb3fb700bb528f423a961932</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1904,7 +1904,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_bcae80addb3fb700bb528f423a961932</table>
         <value>{{action.ah_incident.sys_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>bcae80addb3fb700bb528f423a961932</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -1916,8 +1916,8 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=bcae80addb3fb700bb528f423a961932^sys_idNOT IN34ae80addb3fb700bb528f423a961936,d9e09021db7fb700bb528f423a961934"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=bcae80addb3fb700bb528f423a961932^sys_idNOT IN34ae80addb3fb700bb528f423a961936,d9e09021db7fb700bb528f423a961934"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1998,7 +1998,7 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2079,8 +2079,8 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=bcae80addb3fb700bb528f423a961932^sys_idNOT IN38ae80addb3fb700bb528f423a961941"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=bcae80addb3fb700bb528f423a961932^sys_idNOT IN38ae80addb3fb700bb528f423a961941"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2161,8 +2161,8 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_64ae80addb3fb700bb528f423a96191d^sys_idNOT IN7cae80addb3fb700bb528f423a961926,7cae80addb3fb700bb528f423a96192b"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_64ae80addb3fb700bb528f423a96191d^sys_idNOT IN7cae80addb3fb700bb528f423a961926,7cae80addb3fb700bb528f423a96192b"/>
+    <sys_documentation action="DELETE">
         <element>ah_incident</element>
         <help/>
         <hint/>
@@ -2185,7 +2185,7 @@ The fields passed to the remote instance are the display names of the following 
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>connection_alias</element>
         <help/>
         <hint/>
@@ -2208,8 +2208,8 @@ The fields passed to the remote instance are the display names of the following 
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_plan action="delete_multiple" query="action_id=64ae80addb3fb700bb528f423a96191d^sys_idNOT INb4bf80eddb3fb700bb528f423a9619c4"/>
-    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+    <sys_hub_action_plan action="DELETE" query="action_id=64ae80addb3fb700bb528f423a96191d^sys_idNOT INb4bf80eddb3fb700bb528f423a9619c4"/>
+    <sys_hub_action_plan action="DELETE">
         <action_id display_value="Connector - Incident Update Correlation ID">64ae80addb3fb700bb528f423a96191d</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b4bf80eddb3fb700bb528f423a9619c4","name":"plan"}}</plan>
         <snapshot>8c419821db7fb700bb528f423a9619eb</snapshot>
@@ -2224,7 +2224,7 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:49:04</sys_updated_on>
     </sys_hub_action_plan>
-    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+    <sys_hub_action_type_snapshot action="DELETE">
         <access>public</access>
         <acls/>
         <action_template/>
@@ -2276,10 +2276,10 @@ The fields passed to the remote instance are the display names of the following 
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
-    <sys_translated_text action="delete_multiple" query="documentkey=98bf40eddb3fb700bb528f423a9619d7"/>
-    <sys_variable_value action="delete_multiple" query="document_key=98bf40eddb3fb700bb528f423a9619d7"/>
-    <sys_hub_step_instance action="delete_multiple" query="action=98bf40eddb3fb700bb528f423a9619d7^sys_idNOT IN50bf80eddb3fb700bb528f423a96190e,d4bf40eddb3fb700bb528f423a9619f7,dcbf40eddb3fb700bb528f423a9619e3"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_translated_text action="DELETE" query="documentkey=98bf40eddb3fb700bb528f423a9619d7"/>
+    <sys_variable_value action="DELETE" query="document_key=98bf40eddb3fb700bb528f423a9619d7"/>
+    <sys_hub_step_instance action="DELETE" query="action=98bf40eddb3fb700bb528f423a9619d7^sys_idNOT IN50bf80eddb3fb700bb528f423a96190e,d4bf40eddb3fb700bb528f423a9619f7,dcbf40eddb3fb700bb528f423a9619e3"/>
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Incident Update Correlation ID">98bf40eddb3fb700bb528f423a9619d7</action>
         <cid>5dd0b555-257a-4e1d-a277-9187dc867ee5</cid>
         <extended_inputs/>
@@ -2300,8 +2300,8 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:42:12</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=50bf80eddb3fb700bb528f423a96190e"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=50bf80eddb3fb700bb528f423a96190e"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>50bf80eddb3fb700bb528f423a96190e</document_key>
         <order>400</order>
@@ -2315,7 +2315,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>50bf80eddb3fb700bb528f423a96190e</document_key>
         <order>600</order>
@@ -2337,8 +2337,8 @@ The fields passed to the remote instance are the display names of the following 
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=50bf80eddb3fb700bb528f423a96190e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=50bf80eddb3fb700bb528f423a96190e"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>50bf80eddb3fb700bb528f423a96190e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2350,7 +2350,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>response</field>
         <id>50bf80eddb3fb700bb528f423a96190e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2362,7 +2362,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_50bf80eddb3fb700bb528f423a96190e</table>
         <value>{{step[318456df-9525-4fa2-9781-73c285c6f087].response_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>50bf80eddb3fb700bb528f423a96190e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2374,7 +2374,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>status</field>
         <id>50bf80eddb3fb700bb528f423a96190e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2386,8 +2386,8 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_50bf80eddb3fb700bb528f423a96190e</table>
         <value>{{step[318456df-9525-4fa2-9781-73c285c6f087].status_code}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=50bf80eddb3fb700bb528f423a96190e^sys_idNOT IN14bf80eddb3fb700bb528f423a961916,dcbf80eddb3fb700bb528f423a961910"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=50bf80eddb3fb700bb528f423a96190e^sys_idNOT IN14bf80eddb3fb700bb528f423a961916,dcbf80eddb3fb700bb528f423a961910"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2468,7 +2468,7 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2549,7 +2549,7 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Incident Update Correlation ID">98bf40eddb3fb700bb528f423a9619d7</action>
         <cid>318456df-9525-4fa2-9781-73c285c6f087</cid>
         <extended_inputs/>
@@ -2570,8 +2570,8 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:57:02</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=d4bf40eddb3fb700bb528f423a9619f7"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=d4bf40eddb3fb700bb528f423a9619f7"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>12</order>
@@ -2585,7 +2585,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>20</order>
@@ -2599,7 +2599,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>/api/now/table/incident</value>
         <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>15</order>
@@ -2613,7 +2613,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>https://serviceconnectaus.service-now.com</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>10</order>
@@ -2627,7 +2627,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>3f678f3bdbef7300bb528f423a9619de</value>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>13</order>
@@ -2641,7 +2641,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>25</order>
@@ -2655,7 +2655,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>post</value>
         <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>25</order>
@@ -2669,7 +2669,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"sysparm_fields","value":" number, correlation_id"},{"attributes":{},"name":"sysparm_input_display_value","value":"true"}]}</value>
         <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>30</order>
@@ -2683,8 +2683,8 @@ The fields passed to the remote instance are the display names of the following 
         <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"content-type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=d4bf40eddb3fb700bb528f423a9619f7"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=d4bf40eddb3fb700bb528f423a9619f7"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2696,7 +2696,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>base_url</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2708,7 +2708,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>body</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2721,7 +2721,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>
 {{step[97986a6d-4c91-4b4b-afa2-8eca3d070e2f].rest_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>capabilities</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2733,7 +2733,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>connection_alias</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2745,7 +2745,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>headers</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2757,7 +2757,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>http_method</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2769,7 +2769,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>query_params</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2781,7 +2781,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>resource_path</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2793,8 +2793,8 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=d4bf40eddb3fb700bb528f423a9619f7^sys_idNOT IN58bf40eddb3fb700bb528f423a9619fd"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=d4bf40eddb3fb700bb528f423a9619f7^sys_idNOT IN58bf40eddb3fb700bb528f423a9619fd"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2875,8 +2875,8 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=d4bf40eddb3fb700bb528f423a9619f7^sys_idNOT IN58bf80eddb3fb700bb528f423a961905"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+    <sys_hub_input_scripts action="DELETE" query="instance=d4bf40eddb3fb700bb528f423a9619f7^sys_idNOT IN58bf80eddb3fb700bb528f423a961905"/>
+    <sys_hub_input_scripts action="DELETE">
         <active>false</active>
         <input_name>connection_alias</input_name>
         <instance>d4bf40eddb3fb700bb528f423a9619f7</instance>
@@ -2889,7 +2889,7 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:42:12</sys_updated_on>
     </sys_hub_input_scripts>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Incident Update Correlation ID">98bf40eddb3fb700bb528f423a9619d7</action>
         <cid>97986a6d-4c91-4b4b-afa2-8eca3d070e2f</cid>
         <extended_inputs/>
@@ -2910,8 +2910,8 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:49:02</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=dcbf40eddb3fb700bb528f423a9619e3"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=dcbf40eddb3fb700bb528f423a9619e3"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>dcbf40eddb3fb700bb528f423a9619e3</document_key>
         <order>600</order>
@@ -2929,7 +2929,7 @@ The fields passed to the remote instance are the display names of the following 
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>dcbf40eddb3fb700bb528f423a9619e3</document_key>
         <order>400</order>
@@ -2943,8 +2943,8 @@ The fields passed to the remote instance are the display names of the following 
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=dcbf40eddb3fb700bb528f423a9619e3"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=dcbf40eddb3fb700bb528f423a9619e3"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>dcbf40eddb3fb700bb528f423a9619e3</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2956,7 +2956,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>correlation_id</field>
         <id>dcbf40eddb3fb700bb528f423a9619e3</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2968,7 +2968,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_dcbf40eddb3fb700bb528f423a9619e3</table>
         <value>{{action.ah_incident.correlation_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>incident_sys_id</field>
         <id>dcbf40eddb3fb700bb528f423a9619e3</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2980,7 +2980,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_dcbf40eddb3fb700bb528f423a9619e3</table>
         <value>{{action.ah_incident.sys_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>dcbf40eddb3fb700bb528f423a9619e3</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -2992,8 +2992,8 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=dcbf40eddb3fb700bb528f423a9619e3^sys_idNOT IN5cbf40eddb3fb700bb528f423a9619e6,c3e01421db7fb700bb528f423a96196a"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=dcbf40eddb3fb700bb528f423a9619e3^sys_idNOT IN5cbf40eddb3fb700bb528f423a9619e6,c3e01421db7fb700bb528f423a96196a"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3074,7 +3074,7 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3155,8 +3155,8 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=dcbf40eddb3fb700bb528f423a9619e3^sys_idNOT IN98bf40eddb3fb700bb528f423a9619ec"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=dcbf40eddb3fb700bb528f423a9619e3^sys_idNOT IN98bf40eddb3fb700bb528f423a9619ec"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3237,8 +3237,8 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_action_input action="delete_multiple" query="model=98bf40eddb3fb700bb528f423a9619d7^sys_idNOT IN9cbf40eddb3fb700bb528f423a9619dd,d4bf40eddb3fb700bb528f423a9619d8"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
+    <sys_hub_action_input action="DELETE" query="model=98bf40eddb3fb700bb528f423a9619d7^sys_idNOT IN9cbf40eddb3fb700bb528f423a9619dd,d4bf40eddb3fb700bb528f423a9619d8"/>
+    <sys_hub_action_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3319,7 +3319,7 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
+    <sys_hub_action_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3400,8 +3400,8 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_step_instance action="delete_multiple" query="action=98bf40eddb3fb700bb528f423a9619d7^sys_idNOT IN50bf80eddb3fb700bb528f423a96190e,d4bf40eddb3fb700bb528f423a9619f7,dcbf40eddb3fb700bb528f423a9619e3"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE" query="action=98bf40eddb3fb700bb528f423a9619d7^sys_idNOT IN50bf80eddb3fb700bb528f423a96190e,d4bf40eddb3fb700bb528f423a9619f7,dcbf40eddb3fb700bb528f423a9619e3"/>
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Incident Update Correlation ID">98bf40eddb3fb700bb528f423a9619d7</action>
         <cid>5dd0b555-257a-4e1d-a277-9187dc867ee5</cid>
         <extended_inputs/>
@@ -3422,8 +3422,8 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:42:12</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=50bf80eddb3fb700bb528f423a96190e"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=50bf80eddb3fb700bb528f423a96190e"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>50bf80eddb3fb700bb528f423a96190e</document_key>
         <order>400</order>
@@ -3437,7 +3437,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>50bf80eddb3fb700bb528f423a96190e</document_key>
         <order>600</order>
@@ -3459,8 +3459,8 @@ The fields passed to the remote instance are the display names of the following 
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=50bf80eddb3fb700bb528f423a96190e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=50bf80eddb3fb700bb528f423a96190e"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>50bf80eddb3fb700bb528f423a96190e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -3472,7 +3472,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>response</field>
         <id>50bf80eddb3fb700bb528f423a96190e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -3484,7 +3484,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_50bf80eddb3fb700bb528f423a96190e</table>
         <value>{{step[318456df-9525-4fa2-9781-73c285c6f087].response_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>50bf80eddb3fb700bb528f423a96190e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -3496,7 +3496,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>status</field>
         <id>50bf80eddb3fb700bb528f423a96190e</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -3508,8 +3508,8 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_50bf80eddb3fb700bb528f423a96190e</table>
         <value>{{step[318456df-9525-4fa2-9781-73c285c6f087].status_code}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=50bf80eddb3fb700bb528f423a96190e^sys_idNOT IN14bf80eddb3fb700bb528f423a961916,dcbf80eddb3fb700bb528f423a961910"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=50bf80eddb3fb700bb528f423a96190e^sys_idNOT IN14bf80eddb3fb700bb528f423a961916,dcbf80eddb3fb700bb528f423a961910"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3590,7 +3590,7 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3671,7 +3671,7 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Incident Update Correlation ID">98bf40eddb3fb700bb528f423a9619d7</action>
         <cid>318456df-9525-4fa2-9781-73c285c6f087</cid>
         <extended_inputs/>
@@ -3692,8 +3692,8 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:57:02</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=d4bf40eddb3fb700bb528f423a9619f7"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=d4bf40eddb3fb700bb528f423a9619f7"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>12</order>
@@ -3707,7 +3707,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>20</order>
@@ -3721,7 +3721,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>/api/now/table/incident</value>
         <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>15</order>
@@ -3735,7 +3735,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>https://serviceconnectaus.service-now.com</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>10</order>
@@ -3749,7 +3749,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>3f678f3bdbef7300bb528f423a9619de</value>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>13</order>
@@ -3763,7 +3763,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>25</order>
@@ -3777,7 +3777,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>post</value>
         <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>25</order>
@@ -3791,7 +3791,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"sysparm_fields","value":" number, correlation_id"},{"attributes":{},"name":"sysparm_input_display_value","value":"true"}]}</value>
         <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>d4bf40eddb3fb700bb528f423a9619f7</document_key>
         <order>30</order>
@@ -3805,8 +3805,8 @@ The fields passed to the remote instance are the display names of the following 
         <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"content-type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=d4bf40eddb3fb700bb528f423a9619f7"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=d4bf40eddb3fb700bb528f423a9619f7"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -3818,7 +3818,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>base_url</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -3830,7 +3830,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>body</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -3843,7 +3843,7 @@ The fields passed to the remote instance are the display names of the following 
         <value>
 {{step[97986a6d-4c91-4b4b-afa2-8eca3d070e2f].rest_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>capabilities</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -3855,7 +3855,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>connection_alias</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -3867,7 +3867,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>headers</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -3879,7 +3879,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>http_method</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -3891,7 +3891,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>query_params</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -3903,7 +3903,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>resource_path</field>
         <id>d4bf40eddb3fb700bb528f423a9619f7</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -3915,8 +3915,8 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=d4bf40eddb3fb700bb528f423a9619f7^sys_idNOT IN58bf40eddb3fb700bb528f423a9619fd"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=d4bf40eddb3fb700bb528f423a9619f7^sys_idNOT IN58bf40eddb3fb700bb528f423a9619fd"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3997,8 +3997,8 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=d4bf40eddb3fb700bb528f423a9619f7^sys_idNOT IN58bf80eddb3fb700bb528f423a961905"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+    <sys_hub_input_scripts action="DELETE" query="instance=d4bf40eddb3fb700bb528f423a9619f7^sys_idNOT IN58bf80eddb3fb700bb528f423a961905"/>
+    <sys_hub_input_scripts action="DELETE">
         <active>false</active>
         <input_name>connection_alias</input_name>
         <instance>d4bf40eddb3fb700bb528f423a9619f7</instance>
@@ -4011,7 +4011,7 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:42:12</sys_updated_on>
     </sys_hub_input_scripts>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Incident Update Correlation ID">98bf40eddb3fb700bb528f423a9619d7</action>
         <cid>97986a6d-4c91-4b4b-afa2-8eca3d070e2f</cid>
         <extended_inputs/>
@@ -4032,8 +4032,8 @@ The fields passed to the remote instance are the display names of the following 
         <sys_updated_by>bobby.edmonds</sys_updated_by>
         <sys_updated_on>2019-09-09 17:49:02</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=dcbf40eddb3fb700bb528f423a9619e3"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=dcbf40eddb3fb700bb528f423a9619e3"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>dcbf40eddb3fb700bb528f423a9619e3</document_key>
         <order>600</order>
@@ -4051,7 +4051,7 @@ The fields passed to the remote instance are the display names of the following 
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>dcbf40eddb3fb700bb528f423a9619e3</document_key>
         <order>400</order>
@@ -4065,8 +4065,8 @@ The fields passed to the remote instance are the display names of the following 
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=dcbf40eddb3fb700bb528f423a9619e3"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=dcbf40eddb3fb700bb528f423a9619e3"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>dcbf40eddb3fb700bb528f423a9619e3</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -4078,7 +4078,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>correlation_id</field>
         <id>dcbf40eddb3fb700bb528f423a9619e3</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -4090,7 +4090,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_dcbf40eddb3fb700bb528f423a9619e3</table>
         <value>{{action.ah_incident.correlation_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>incident_sys_id</field>
         <id>dcbf40eddb3fb700bb528f423a9619e3</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -4102,7 +4102,7 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_hub_step_ext_input_dcbf40eddb3fb700bb528f423a9619e3</table>
         <value>{{action.ah_incident.sys_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>dcbf40eddb3fb700bb528f423a9619e3</id>
         <sys_created_by>bobby.edmonds</sys_created_by>
@@ -4114,8 +4114,8 @@ The fields passed to the remote instance are the display names of the following 
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=dcbf40eddb3fb700bb528f423a9619e3^sys_idNOT IN5cbf40eddb3fb700bb528f423a9619e6,c3e01421db7fb700bb528f423a96196a"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=dcbf40eddb3fb700bb528f423a9619e3^sys_idNOT IN5cbf40eddb3fb700bb528f423a9619e6,c3e01421db7fb700bb528f423a96196a"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -4196,7 +4196,7 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -4277,8 +4277,8 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=dcbf40eddb3fb700bb528f423a9619e3^sys_idNOT IN98bf40eddb3fb700bb528f423a9619ec"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=dcbf40eddb3fb700bb528f423a9619e3^sys_idNOT IN98bf40eddb3fb700bb528f423a9619ec"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -4359,8 +4359,8 @@ The fields passed to the remote instance are the display names of the following 
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_98bf40eddb3fb700bb528f423a9619d7^sys_idNOT IN50bf40eddb3fb700bb528f423a9619dd,50bf40eddb3fb700bb528f423a9619e2"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_98bf40eddb3fb700bb528f423a9619d7^sys_idNOT IN50bf40eddb3fb700bb528f423a9619dd,50bf40eddb3fb700bb528f423a9619e2"/>
+    <sys_documentation action="DELETE">
         <element>ah_incident</element>
         <help/>
         <hint/>
@@ -4383,7 +4383,7 @@ The fields passed to the remote instance are the display names of the following 
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>connection_alias</element>
         <help/>
         <hint/>

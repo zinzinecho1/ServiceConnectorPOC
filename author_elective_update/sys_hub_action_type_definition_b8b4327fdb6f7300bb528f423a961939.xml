@@ -55,10 +55,10 @@ This action use remote incident number to retrieve display values of following f
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
-    <sys_translated_text action="delete_multiple" query="documentkey=b8b4327fdb6f7300bb528f423a961939"/>
-    <sys_variable_value action="delete_multiple" query="document_key=b8b4327fdb6f7300bb528f423a961939"/>
-    <sys_element_mapping action="delete_multiple" query="id=b8b4327fdb6f7300bb528f423a961939"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_translated_text action="DELETE" query="documentkey=b8b4327fdb6f7300bb528f423a961939"/>
+    <sys_variable_value action="DELETE" query="document_key=b8b4327fdb6f7300bb528f423a961939"/>
+    <sys_element_mapping action="DELETE" query="id=b8b4327fdb6f7300bb528f423a961939"/>
+    <sys_element_mapping action="DELETE">
         <field>Assigned To</field>
         <id>b8b4327fdb6f7300bb528f423a961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -70,7 +70,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939</table>
         <value>{{step[c508f6bc-fbe3-4aff-9a43-ffb980ec6a44].assigned_to}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>Assignment group</field>
         <id>b8b4327fdb6f7300bb528f423a961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -82,7 +82,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939</table>
         <value>{{step[c508f6bc-fbe3-4aff-9a43-ffb980ec6a44].assignment_group}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>Business Service</field>
         <id>b8b4327fdb6f7300bb528f423a961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -94,7 +94,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939</table>
         <value>{{step[c508f6bc-fbe3-4aff-9a43-ffb980ec6a44].business_service}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>Caller Id</field>
         <id>b8b4327fdb6f7300bb528f423a961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -106,7 +106,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939</table>
         <value>{{step[c508f6bc-fbe3-4aff-9a43-ffb980ec6a44].caller_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>Category</field>
         <id>b8b4327fdb6f7300bb528f423a961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -118,7 +118,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939</table>
         <value>{{step[c508f6bc-fbe3-4aff-9a43-ffb980ec6a44].category}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>Configuration Item</field>
         <id>b8b4327fdb6f7300bb528f423a961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -130,7 +130,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939</table>
         <value>{{step[c508f6bc-fbe3-4aff-9a43-ffb980ec6a44].cmdb_ci}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>Contact Type</field>
         <id>b8b4327fdb6f7300bb528f423a961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -142,7 +142,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939</table>
         <value>{{step[c508f6bc-fbe3-4aff-9a43-ffb980ec6a44].contact_type}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>Correlation Id</field>
         <id>b8b4327fdb6f7300bb528f423a961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -154,7 +154,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939</table>
         <value>{{step[c508f6bc-fbe3-4aff-9a43-ffb980ec6a44].correlation_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>Description</field>
         <id>b8b4327fdb6f7300bb528f423a961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -166,7 +166,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939</table>
         <value>{{step[c508f6bc-fbe3-4aff-9a43-ffb980ec6a44].description}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>Impact</field>
         <id>b8b4327fdb6f7300bb528f423a961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -178,7 +178,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939</table>
         <value>{{step[c508f6bc-fbe3-4aff-9a43-ffb980ec6a44].impact}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>Short Description</field>
         <id>b8b4327fdb6f7300bb528f423a961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -190,7 +190,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939</table>
         <value>{{step[c508f6bc-fbe3-4aff-9a43-ffb980ec6a44].short_description}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>State</field>
         <id>b8b4327fdb6f7300bb528f423a961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -202,7 +202,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939</table>
         <value>{{step[c508f6bc-fbe3-4aff-9a43-ffb980ec6a44].state}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>Subcategory</field>
         <id>b8b4327fdb6f7300bb528f423a961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -214,7 +214,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939</table>
         <value>{{step[c508f6bc-fbe3-4aff-9a43-ffb980ec6a44].subcategory}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>Urgency</field>
         <id>b8b4327fdb6f7300bb528f423a961939</id>
         <sys_created_by>admin</sys_created_by>
@@ -226,8 +226,8 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939</table>
         <value>{{step[c508f6bc-fbe3-4aff-9a43-ffb980ec6a44].urgency}}</value>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=b8b4327fdb6f7300bb528f423a961939^sys_idNOT IN34b4327fdb6f7300bb528f423a96195f,74b4327fdb6f7300bb528f423a96194f"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE" query="action=b8b4327fdb6f7300bb528f423a961939^sys_idNOT IN34b4327fdb6f7300bb528f423a96195f,74b4327fdb6f7300bb528f423a96194f"/>
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Lookup Remote Incident">b8b4327fdb6f7300bb528f423a961939</action>
         <cid>c508f6bc-fbe3-4aff-9a43-ffb980ec6a44</cid>
         <extended_inputs/>
@@ -248,8 +248,8 @@ This action use remote incident number to retrieve display values of following f
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-04 19:13:47</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=34b4327fdb6f7300bb528f423a96195f"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=34b4327fdb6f7300bb528f423a96195f"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>34b4327fdb6f7300bb528f423a96195f</document_key>
         <order>600</order>
@@ -288,7 +288,7 @@ This action use remote incident number to retrieve display values of following f
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>34b4327fdb6f7300bb528f423a96195f</document_key>
         <order>400</order>
@@ -302,8 +302,8 @@ This action use remote incident number to retrieve display values of following f
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=34b4327fdb6f7300bb528f423a96195f"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=34b4327fdb6f7300bb528f423a96195f"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>34b4327fdb6f7300bb528f423a96195f</id>
         <sys_created_by>admin</sys_created_by>
@@ -315,7 +315,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>response</field>
         <id>34b4327fdb6f7300bb528f423a96195f</id>
         <sys_created_by>admin</sys_created_by>
@@ -327,7 +327,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_step_ext_input_34b4327fdb6f7300bb528f423a96195f</table>
         <value>{{step[cca56da2-904b-4b8f-b8c0-7a439cac280d].response_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>34b4327fdb6f7300bb528f423a96195f</id>
         <sys_created_by>admin</sys_created_by>
@@ -339,7 +339,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>status</field>
         <id>34b4327fdb6f7300bb528f423a96195f</id>
         <sys_created_by>admin</sys_created_by>
@@ -351,8 +351,8 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_step_ext_input_34b4327fdb6f7300bb528f423a96195f</table>
         <value>{{step[cca56da2-904b-4b8f-b8c0-7a439cac280d].status_code}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=34b4327fdb6f7300bb528f423a96195f^sys_idNOT IN30b4327fdb6f7300bb528f423a961962,fcb4327fdb6f7300bb528f423a961966"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=34b4327fdb6f7300bb528f423a96195f^sys_idNOT IN30b4327fdb6f7300bb528f423a961962,fcb4327fdb6f7300bb528f423a961966"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -433,7 +433,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -514,8 +514,8 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=34b4327fdb6f7300bb528f423a96195f^sys_idNOT IN01b4327fdb6f7300bb528f423a96197a,05b4327fdb6f7300bb528f423a96198c,09b4327fdb6f7300bb528f423a96199e,30b4327fdb6f7300bb528f423a96196c,41b4327fdb6f7300bb528f423a9619a3,49b4327fdb6f7300bb528f423a96197e,4db4327fdb6f7300bb528f423a961990,81b4327fdb6f7300bb528f423a961983,85b4327fdb6f7300bb528f423a961995,89b4327fdb6f7300bb528f423a9619a7,8db4327fdb6f7300bb528f423a961970,c5b4327fdb6f7300bb528f423a961975,c9b4327fdb6f7300bb528f423a961987,cdb4327fdb6f7300bb528f423a961999"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=34b4327fdb6f7300bb528f423a96195f^sys_idNOT IN01b4327fdb6f7300bb528f423a96197a,05b4327fdb6f7300bb528f423a96198c,09b4327fdb6f7300bb528f423a96199e,30b4327fdb6f7300bb528f423a96196c,41b4327fdb6f7300bb528f423a9619a3,49b4327fdb6f7300bb528f423a96197e,4db4327fdb6f7300bb528f423a961990,81b4327fdb6f7300bb528f423a961983,85b4327fdb6f7300bb528f423a961995,89b4327fdb6f7300bb528f423a9619a7,8db4327fdb6f7300bb528f423a961970,c5b4327fdb6f7300bb528f423a961975,c9b4327fdb6f7300bb528f423a961987,cdb4327fdb6f7300bb528f423a961999"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -596,7 +596,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -677,7 +677,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -758,7 +758,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -839,7 +839,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -920,7 +920,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1001,7 +1001,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1082,7 +1082,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1163,7 +1163,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1244,7 +1244,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1325,7 +1325,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1406,7 +1406,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1487,7 +1487,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1568,7 +1568,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1649,7 +1649,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Lookup Remote Incident">b8b4327fdb6f7300bb528f423a961939</action>
         <cid>cca56da2-904b-4b8f-b8c0-7a439cac280d</cid>
         <extended_inputs/>
@@ -1670,8 +1670,8 @@ This action use remote incident number to retrieve display values of following f
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-04 19:13:46</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=74b4327fdb6f7300bb528f423a96194f"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=74b4327fdb6f7300bb528f423a96194f"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>74b4327fdb6f7300bb528f423a96194f</document_key>
         <order>15</order>
@@ -1685,7 +1685,7 @@ This action use remote incident number to retrieve display values of following f
         <value>https://demonightlyus.service-now.com</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>74b4327fdb6f7300bb528f423a96194f</document_key>
         <order>10</order>
@@ -1699,7 +1699,7 @@ This action use remote incident number to retrieve display values of following f
         <value>328da1c1b320030024a3051a16a8dc86</value>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>74b4327fdb6f7300bb528f423a96194f</document_key>
         <order>13</order>
@@ -1713,7 +1713,7 @@ This action use remote incident number to retrieve display values of following f
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>74b4327fdb6f7300bb528f423a96194f</document_key>
         <order>25</order>
@@ -1727,7 +1727,7 @@ This action use remote incident number to retrieve display values of following f
         <value>{}</value>
         <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>74b4327fdb6f7300bb528f423a96194f</document_key>
         <order>30</order>
@@ -1741,7 +1741,7 @@ This action use remote incident number to retrieve display values of following f
         <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Accept","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>74b4327fdb6f7300bb528f423a96194f</document_key>
         <order>12</order>
@@ -1755,7 +1755,7 @@ This action use remote incident number to retrieve display values of following f
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>74b4327fdb6f7300bb528f423a96194f</document_key>
         <order>20</order>
@@ -1769,8 +1769,8 @@ This action use remote incident number to retrieve display values of following f
         <value>/api/now/table/incident</value>
         <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=74b4327fdb6f7300bb528f423a96194f"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=74b4327fdb6f7300bb528f423a96194f"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>74b4327fdb6f7300bb528f423a96194f</id>
         <sys_created_by>admin</sys_created_by>
@@ -1782,7 +1782,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>base_url</field>
         <id>74b4327fdb6f7300bb528f423a96194f</id>
         <sys_created_by>admin</sys_created_by>
@@ -1794,7 +1794,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>capabilities</field>
         <id>74b4327fdb6f7300bb528f423a96194f</id>
         <sys_created_by>admin</sys_created_by>
@@ -1806,7 +1806,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>connection_alias</field>
         <id>74b4327fdb6f7300bb528f423a96194f</id>
         <sys_created_by>admin</sys_created_by>
@@ -1818,7 +1818,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>headers</field>
         <id>74b4327fdb6f7300bb528f423a96194f</id>
         <sys_created_by>admin</sys_created_by>
@@ -1830,7 +1830,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>query_params</field>
         <id>74b4327fdb6f7300bb528f423a96194f</id>
         <sys_created_by>admin</sys_created_by>
@@ -1842,7 +1842,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{"type":"ADV_NV","value":[{"name":"number","value":"{{action.ah_remote_incident_number}}","attributes":{}},{"name":"sysparm_fields","value":"correlation_id,short_description,description,state,caller_id,business_service,category,subcategory,impact,urgency,cmdb_ci","attributes":{}},{"name":"sysparm_display_value","value":"true","attributes":{}}]}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>resource_path</field>
         <id>74b4327fdb6f7300bb528f423a96194f</id>
         <sys_created_by>admin</sys_created_by>
@@ -1854,8 +1854,8 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_action_input action="delete_multiple" query="model=b8b4327fdb6f7300bb528f423a961939^sys_idNOT IN70b4327fdb6f7300bb528f423a96193d"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
+    <sys_hub_action_input action="DELETE" query="model=b8b4327fdb6f7300bb528f423a961939^sys_idNOT IN70b4327fdb6f7300bb528f423a96193d"/>
+    <sys_hub_action_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -1936,8 +1936,8 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_output action="delete_multiple" query="model=b8b4327fdb6f7300bb528f423a961939^sys_idNOT IN11b4327fdb6f7300bb528f423a9619e2,19b4327fdb6f7300bb528f423a9619bd,1db4327fdb6f7300bb528f423a9619cf,51b4327fdb6f7300bb528f423a9619c2,55b4327fdb6f7300bb528f423a9619d4,59b4327fdb6f7300bb528f423a9619e6,91b4327fdb6f7300bb528f423a9619eb,99b4327fdb6f7300bb528f423a9619c6,9db4327fdb6f7300bb528f423a9619d8,cdb4327fdb6f7300bb528f423a9619b3,d1b4327fdb6f7300bb528f423a9619cb,d5b4327fdb6f7300bb528f423a9619dd,d9b4327fdb6f7300bb528f423a9619ef,ddb4327fdb6f7300bb528f423a9619b8"/>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE" query="model=b8b4327fdb6f7300bb528f423a961939^sys_idNOT IN11b4327fdb6f7300bb528f423a9619e2,19b4327fdb6f7300bb528f423a9619bd,1db4327fdb6f7300bb528f423a9619cf,51b4327fdb6f7300bb528f423a9619c2,55b4327fdb6f7300bb528f423a9619d4,59b4327fdb6f7300bb528f423a9619e6,91b4327fdb6f7300bb528f423a9619eb,99b4327fdb6f7300bb528f423a9619c6,9db4327fdb6f7300bb528f423a9619d8,cdb4327fdb6f7300bb528f423a9619b3,d1b4327fdb6f7300bb528f423a9619cb,d5b4327fdb6f7300bb528f423a9619dd,d9b4327fdb6f7300bb528f423a9619ef,ddb4327fdb6f7300bb528f423a9619b8"/>
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2020,7 +2020,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2103,7 +2103,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2186,7 +2186,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2269,7 +2269,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2352,7 +2352,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2435,7 +2435,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2518,7 +2518,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2601,7 +2601,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2684,7 +2684,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2767,7 +2767,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2850,7 +2850,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -2933,7 +2933,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3016,7 +3016,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
+    <sys_hub_action_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3099,8 +3099,8 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_step_instance action="delete_multiple" query="action=b8b4327fdb6f7300bb528f423a961939^sys_idNOT IN34b4327fdb6f7300bb528f423a96195f,74b4327fdb6f7300bb528f423a96194f"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE" query="action=b8b4327fdb6f7300bb528f423a961939^sys_idNOT IN34b4327fdb6f7300bb528f423a96195f,74b4327fdb6f7300bb528f423a96194f"/>
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Lookup Remote Incident">b8b4327fdb6f7300bb528f423a961939</action>
         <cid>c508f6bc-fbe3-4aff-9a43-ffb980ec6a44</cid>
         <extended_inputs/>
@@ -3121,8 +3121,8 @@ This action use remote incident number to retrieve display values of following f
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-04 19:13:47</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=34b4327fdb6f7300bb528f423a96195f"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=34b4327fdb6f7300bb528f423a96195f"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>34b4327fdb6f7300bb528f423a96195f</document_key>
         <order>600</order>
@@ -3161,7 +3161,7 @@ This action use remote incident number to retrieve display values of following f
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>34b4327fdb6f7300bb528f423a96195f</document_key>
         <order>400</order>
@@ -3175,8 +3175,8 @@ This action use remote incident number to retrieve display values of following f
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=34b4327fdb6f7300bb528f423a96195f"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=34b4327fdb6f7300bb528f423a96195f"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>34b4327fdb6f7300bb528f423a96195f</id>
         <sys_created_by>admin</sys_created_by>
@@ -3188,7 +3188,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>response</field>
         <id>34b4327fdb6f7300bb528f423a96195f</id>
         <sys_created_by>admin</sys_created_by>
@@ -3200,7 +3200,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_step_ext_input_34b4327fdb6f7300bb528f423a96195f</table>
         <value>{{step[cca56da2-904b-4b8f-b8c0-7a439cac280d].response_body}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>script</field>
         <id>34b4327fdb6f7300bb528f423a96195f</id>
         <sys_created_by>admin</sys_created_by>
@@ -3212,7 +3212,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>status</field>
         <id>34b4327fdb6f7300bb528f423a96195f</id>
         <sys_created_by>admin</sys_created_by>
@@ -3224,8 +3224,8 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_hub_step_ext_input_34b4327fdb6f7300bb528f423a96195f</table>
         <value>{{step[cca56da2-904b-4b8f-b8c0-7a439cac280d].status_code}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=34b4327fdb6f7300bb528f423a96195f^sys_idNOT IN30b4327fdb6f7300bb528f423a961962,fcb4327fdb6f7300bb528f423a961966"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE" query="model=34b4327fdb6f7300bb528f423a96195f^sys_idNOT IN30b4327fdb6f7300bb528f423a961962,fcb4327fdb6f7300bb528f423a961966"/>
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3306,7 +3306,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3387,8 +3387,8 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=34b4327fdb6f7300bb528f423a96195f^sys_idNOT IN01b4327fdb6f7300bb528f423a96197a,05b4327fdb6f7300bb528f423a96198c,09b4327fdb6f7300bb528f423a96199e,30b4327fdb6f7300bb528f423a96196c,41b4327fdb6f7300bb528f423a9619a3,49b4327fdb6f7300bb528f423a96197e,4db4327fdb6f7300bb528f423a961990,81b4327fdb6f7300bb528f423a961983,85b4327fdb6f7300bb528f423a961995,89b4327fdb6f7300bb528f423a9619a7,8db4327fdb6f7300bb528f423a961970,c5b4327fdb6f7300bb528f423a961975,c9b4327fdb6f7300bb528f423a961987,cdb4327fdb6f7300bb528f423a961999"/>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE" query="model=34b4327fdb6f7300bb528f423a96195f^sys_idNOT IN01b4327fdb6f7300bb528f423a96197a,05b4327fdb6f7300bb528f423a96198c,09b4327fdb6f7300bb528f423a96199e,30b4327fdb6f7300bb528f423a96196c,41b4327fdb6f7300bb528f423a9619a3,49b4327fdb6f7300bb528f423a96197e,4db4327fdb6f7300bb528f423a961990,81b4327fdb6f7300bb528f423a961983,85b4327fdb6f7300bb528f423a961995,89b4327fdb6f7300bb528f423a9619a7,8db4327fdb6f7300bb528f423a961970,c5b4327fdb6f7300bb528f423a961975,c9b4327fdb6f7300bb528f423a961987,cdb4327fdb6f7300bb528f423a961999"/>
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3469,7 +3469,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3550,7 +3550,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3631,7 +3631,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3712,7 +3712,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3793,7 +3793,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3874,7 +3874,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -3955,7 +3955,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -4036,7 +4036,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -4117,7 +4117,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -4198,7 +4198,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -4279,7 +4279,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -4360,7 +4360,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -4441,7 +4441,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_output action="DELETE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -4522,7 +4522,7 @@ This action use remote incident number to retrieve display values of following f
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+    <sys_hub_step_instance action="DELETE">
         <action display_value="Connector - Lookup Remote Incident">b8b4327fdb6f7300bb528f423a961939</action>
         <cid>cca56da2-904b-4b8f-b8c0-7a439cac280d</cid>
         <extended_inputs/>
@@ -4543,8 +4543,8 @@ This action use remote incident number to retrieve display values of following f
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-04 19:13:46</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=74b4327fdb6f7300bb528f423a96194f"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE" query="document_key=74b4327fdb6f7300bb528f423a96194f"/>
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>74b4327fdb6f7300bb528f423a96194f</document_key>
         <order>15</order>
@@ -4558,7 +4558,7 @@ This action use remote incident number to retrieve display values of following f
         <value>https://demonightlyus.service-now.com</value>
         <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>74b4327fdb6f7300bb528f423a96194f</document_key>
         <order>10</order>
@@ -4572,7 +4572,7 @@ This action use remote incident number to retrieve display values of following f
         <value>328da1c1b320030024a3051a16a8dc86</value>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>74b4327fdb6f7300bb528f423a96194f</document_key>
         <order>13</order>
@@ -4586,7 +4586,7 @@ This action use remote incident number to retrieve display values of following f
         <value>18409d8007482000dada43c0d1021e8f</value>
         <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>74b4327fdb6f7300bb528f423a96194f</document_key>
         <order>25</order>
@@ -4600,7 +4600,7 @@ This action use remote incident number to retrieve display values of following f
         <value>{}</value>
         <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>74b4327fdb6f7300bb528f423a96194f</document_key>
         <order>30</order>
@@ -4614,7 +4614,7 @@ This action use remote incident number to retrieve display values of following f
         <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Accept","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>74b4327fdb6f7300bb528f423a96194f</document_key>
         <order>12</order>
@@ -4628,7 +4628,7 @@ This action use remote incident number to retrieve display values of following f
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
+    <sys_variable_value action="DELETE">
         <document>sys_hub_step_instance</document>
         <document_key>74b4327fdb6f7300bb528f423a96194f</document_key>
         <order>20</order>
@@ -4642,8 +4642,8 @@ This action use remote incident number to retrieve display values of following f
         <value>/api/now/table/incident</value>
         <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=74b4327fdb6f7300bb528f423a96194f"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE" query="id=74b4327fdb6f7300bb528f423a96194f"/>
+    <sys_element_mapping action="DELETE">
         <field>application</field>
         <id>74b4327fdb6f7300bb528f423a96194f</id>
         <sys_created_by>admin</sys_created_by>
@@ -4655,7 +4655,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>base_url</field>
         <id>74b4327fdb6f7300bb528f423a96194f</id>
         <sys_created_by>admin</sys_created_by>
@@ -4667,7 +4667,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>capabilities</field>
         <id>74b4327fdb6f7300bb528f423a96194f</id>
         <sys_created_by>admin</sys_created_by>
@@ -4679,7 +4679,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>connection_alias</field>
         <id>74b4327fdb6f7300bb528f423a96194f</id>
         <sys_created_by>admin</sys_created_by>
@@ -4691,7 +4691,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>headers</field>
         <id>74b4327fdb6f7300bb528f423a96194f</id>
         <sys_created_by>admin</sys_created_by>
@@ -4703,7 +4703,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>query_params</field>
         <id>74b4327fdb6f7300bb528f423a96194f</id>
         <sys_created_by>admin</sys_created_by>
@@ -4715,7 +4715,7 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{"type":"ADV_NV","value":[{"name":"number","value":"{{action.ah_remote_incident_number}}","attributes":{}},{"name":"sysparm_fields","value":"correlation_id,short_description,description,state,caller_id,business_service,category,subcategory,impact,urgency,cmdb_ci","attributes":{}},{"name":"sysparm_display_value","value":"true","attributes":{}}]}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
+    <sys_element_mapping action="DELETE">
         <field>resource_path</field>
         <id>74b4327fdb6f7300bb528f423a96194f</id>
         <sys_created_by>admin</sys_created_by>
@@ -4727,8 +4727,8 @@ This action use remote incident number to retrieve display values of following f
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_b8b4327fdb6f7300bb528f423a961939^sys_idNOT IN7cb4327fdb6f7300bb528f423a96194d"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_b8b4327fdb6f7300bb528f423a961939^sys_idNOT IN7cb4327fdb6f7300bb528f423a96194d"/>
+    <sys_documentation action="DELETE">
         <element>ah_remote_incident_number</element>
         <help/>
         <hint/>
@@ -4751,8 +4751,8 @@ This action use remote incident number to retrieve display values of following f
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939^sys_idNOT IN11b4327fdb6f7300bb528f423a9619ef,15b4327fdb6f7300bb528f423a9619b8,19b4327fdb6f7300bb528f423a9619ca,1db4327fdb6f7300bb528f423a9619dc,51b4327fdb6f7300bb528f423a9619cf,55b4327fdb6f7300bb528f423a9619e1,59b4327fdb6f7300bb528f423a9619f3,5db4327fdb6f7300bb528f423a9619bc,95b4327fdb6f7300bb528f423a9619c1,99b4327fdb6f7300bb528f423a9619d3,9db4327fdb6f7300bb528f423a9619e5,d1b4327fdb6f7300bb528f423a9619d8,d5b4327fdb6f7300bb528f423a9619ea,ddb4327fdb6f7300bb528f423a9619c5"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_b8b4327fdb6f7300bb528f423a961939^sys_idNOT IN11b4327fdb6f7300bb528f423a9619ef,15b4327fdb6f7300bb528f423a9619b8,19b4327fdb6f7300bb528f423a9619ca,1db4327fdb6f7300bb528f423a9619dc,51b4327fdb6f7300bb528f423a9619cf,55b4327fdb6f7300bb528f423a9619e1,59b4327fdb6f7300bb528f423a9619f3,5db4327fdb6f7300bb528f423a9619bc,95b4327fdb6f7300bb528f423a9619c1,99b4327fdb6f7300bb528f423a9619d3,9db4327fdb6f7300bb528f423a9619e5,d1b4327fdb6f7300bb528f423a9619d8,d5b4327fdb6f7300bb528f423a9619ea,ddb4327fdb6f7300bb528f423a9619c5"/>
+    <sys_documentation action="DELETE">
         <element>Assignment group</element>
         <help/>
         <hint/>
@@ -4775,7 +4775,7 @@ This action use remote incident number to retrieve display values of following f
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>Short Description</element>
         <help/>
         <hint/>
@@ -4798,7 +4798,7 @@ This action use remote incident number to retrieve display values of following f
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>Caller Id</element>
         <help/>
         <hint/>
@@ -4821,7 +4821,7 @@ This action use remote incident number to retrieve display values of following f
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>Impact</element>
         <help/>
         <hint/>
@@ -4844,7 +4844,7 @@ This action use remote incident number to retrieve display values of following f
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>Business Service</element>
         <help/>
         <hint/>
@@ -4867,7 +4867,7 @@ This action use remote incident number to retrieve display values of following f
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>Urgency</element>
         <help/>
         <hint/>
@@ -4890,7 +4890,7 @@ This action use remote incident number to retrieve display values of following f
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>Contact Type</element>
         <help/>
         <hint/>
@@ -4913,7 +4913,7 @@ This action use remote incident number to retrieve display values of following f
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>Correlation Id</element>
         <help/>
         <hint/>
@@ -4936,7 +4936,7 @@ This action use remote incident number to retrieve display values of following f
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>Description</element>
         <help/>
         <hint/>
@@ -4959,7 +4959,7 @@ This action use remote incident number to retrieve display values of following f
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>Category</element>
         <help/>
         <hint/>
@@ -4982,7 +4982,7 @@ This action use remote incident number to retrieve display values of following f
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>Configuration Item</element>
         <help/>
         <hint/>
@@ -5005,7 +5005,7 @@ This action use remote incident number to retrieve display values of following f
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>Subcategory</element>
         <help/>
         <hint/>
@@ -5028,7 +5028,7 @@ This action use remote incident number to retrieve display values of following f
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>Assigned To</element>
         <help/>
         <hint/>
@@ -5051,7 +5051,7 @@ This action use remote incident number to retrieve display values of following f
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
+    <sys_documentation action="DELETE">
         <element>State</element>
         <help/>
         <hint/>

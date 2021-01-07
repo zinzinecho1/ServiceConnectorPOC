@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Field Mapping" max_length="40" name="x_snc_con_field_mapping" type="collection">
+    <element label="Field Mapping" max_length="40" name="x_snc_con_field_mapping" sizeclass="16" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Advanced" max_length="40" name="advanced" type="boolean"/>
         <element hint="Should this field return the display value if different from the value?" label="Display value" max_length="40" name="display_value" type="boolean"/>

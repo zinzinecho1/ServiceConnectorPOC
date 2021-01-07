@@ -36,8 +36,8 @@
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
-    <sys_translated_text action="delete_multiple" query="documentkey=2351b396db37b300bb528f423a9619b6"/>
-    <sys_variable_value action="delete_multiple" query="document_key=2351b396db37b300bb528f423a9619b6"/>
+    <sys_translated_text action="DELETE" query="documentkey=2351b396db37b300bb528f423a9619b6"/>
+    <sys_variable_value action="DELETE" query="document_key=2351b396db37b300bb528f423a9619b6"/>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
         <application display_value="Connector">1e9c2d2bdb6f3300bb528f423a9619b5</application>
